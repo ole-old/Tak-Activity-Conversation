@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book> 
+
+	<texto maximoTiempoEstrella="180" titulo="Duelo de espadas">
+		<parrafo animus="neutral">
+			<![CDATA[<font color="#CC4E27">Top</font> disfrutaba de la increíble mañana en la llanura, cuando se le ocurrió la buena idea de leer un rato. Así que abrió su libro preferido: <font color="#CC4E27">“El ingenioso hidalgo don Quijote de la Mancha”</font>, cuando una manzana roja le cayó en la cabeza.  ¡Auch!]]>
+		</parrafo>
+		<parrafo animus="neutral">
+			<![CDATA[<font color="#CC4E27">Top</font> tuvo que sobarse por el tremendo golpe que se dio, entonces sintió que alguien le pinchó las costillas con una enorme lanza. <font color="#CC4E27">Top</font> se puso rápidamente de pie y en guardia para defenderse del agresor. Pero <font color="#CC4E27">Top</font> se encontró con una sorpresa, era el mismísimo <font color="#CC4E27">Quijote de la Mancha</font> que estaba en busca de una nueva aventura. <font color="#CC4E27">Top</font> afiló sus garras, listo para defenderse.]]>
+		</parrafo>
+		<parrafo animus="neutral">
+			<![CDATA[<i>¡<font color="#CC4E27">Pequeño Top</font>, te reto a un duelo de espadas!</i>- dijo el <font color="#CC4E27">Quijote</font>-, quien estaba confundiendo a <font color="#CC4E27">Top</font> con un caballero andante y le retaba a un enfrentamiento. <font color="#CC4E27">Top</font>, que siempre había sido un topo valiente, aceptó pero dijo estar en desventaja, pues no estaba armado.]]>
+		</parrafo>
+		<parrafo animus="neutral">
+			<![CDATA[El <font color="#CC4E27">Quijote</font> gritó a <font color="#CC4E27">Sancho Panza</font> –su fiel escudero-, quien de inmediato trajo una espada para <font color="#CC4E27">Top</font>. Ahora ambos estaban frente a frente, listos para defender su honor. El <font color="#CC4E27">Quijote</font> portaba una oxidada armadura y su gran espada, mientras que <font color="#CC4E27">Top</font> apenas contaba con una ridícula espada más grande que él. ]]>
+		</parrafo>
+		<parrafo animus="neutral">
+			<![CDATA[Pero a <font color="#CC4E27">Top</font> la espada le hizo sentir en igualdad de condiciones, así que armándose de valor, tiró el primer golpe.<br><br>De un movimiento increíble, el <font color="#CC4E27">Quijote</font> esquivó el golpe de <font color="#CC4E27">Top</font>, por lo que la espada cayó al piso. El <font color="#CC4E27">Quijote</font> hizo un gesto de victoria y preparó su espada para atacar al desarmado <font color="#CC4E27">Top</font>, y con todas sus fuerzas, se preparó para dar un sablazo mortal. ¡Pum! Un nuevo golpe directo a la cabecita de <font color="#CC4E27">Top</font>.]]>
+		</parrafo>
+		<parrafo animus="neutral">
+			<![CDATA[Entonces <font color="#CC4E27">Top</font> abrió los ojos, le había caído una segunda manzana en la cabeza para despertarlo. No supo en qué momento empezó a soñar con el protagonista del libro que leía ¡Sí! Estaba soñando con el <font color="#CC4E27">Quijote de la Mancha</font>. <font color="#CC4E27">Top</font> se sobó el chipote que le salía del casco y continuó leyendo el libro escrito por <font color="#CC4E27">Miguel de Cervantes</font>.<br><br><font color="#FF0000"><center><b>FIN</b></center></font>]]>
+		</parrafo>
+	</texto>
+
+	
+	<ejercicio>
+		<pregunta tipo="sqc" correcta="1-2-3" texto="Ordena las imágenes de acuerdo con el contenido del cuento que acabas de leer." txtCorrecta="" txtErronea="Error: Todas las historias tienen un principio, un desarrollo y un final.">
+			<opcion1 texto="imagenes/ejercicio_A_1.jpg" />
+			<opcion2 texto="imagenes/ejercicio_A_2.jpg" />
+			<opcion3 texto="imagenes/ejercicio_A_3.jpg" />
+		</pregunta>
+		<respuesta>
+			<opcion1 texto="imagenes/ejercicio_B_1.jpg" />
+			<opcion2 texto="imagenes/ejercicio_B_2.jpg" />
+			<opcion3 texto="imagenes/ejercicio_B_3.jpg" />
+		</respuesta>
+	</ejercicio>
+	
+	<preguntasImg aleatorio="si" mostradas="5" minimoCorrectasEstrella="3"> <!-- aleatorio="si/no" -->
+		<pregunta tipo="img" correcta="1" texto="¿Quién es el personaje principal en la historia?" txtCorrecta="" txtErronea="Error: El personaje principal es quien realiza las acciones más importantes de la historia.">
+			<opcion1 texto="imagenes/pre_1_1.jpg" />
+			<opcion2 texto="imagenes/pre_1_2.jpg" />
+			<opcion3 texto="imagenes/pre_1_3.jpg" />
+		</pregunta>
+		<pregunta tipo="img" correcta="2" texto="¿Quién es un personaje antagonista en la historia?" txtCorrecta="" txtErronea="Error: El antagonista es quien se enfrenta el personaje principal.">
+			<opcion1 texto="imagenes/pre_2_1.jpg" />
+			<opcion2 texto="imagenes/pre_2_2.jpg" />
+			<opcion3 texto="imagenes/pre_2_3.jpg" />
+		</pregunta>
+		<pregunta tipo="img" correcta="1" texto="¿En dónde se lleva a cabo la historia?" txtCorrecta="" txtErronea="Error: Las acciones de la historia no se desarrollan en este lugar.">
+			<opcion1 texto="imagenes/pre_3_1.jpg" />
+			<opcion2 texto="imagenes/pre_3_2.jpg" />
+			<opcion3 texto="imagenes/pre_3_3.jpg" />
+		</pregunta>
+		<pregunta tipo="img" correcta="2" texto="¿A qué hora del día se desarrolla la historia?" txtCorrecta="" txtErronea="Error: La historia no se desarrolla en ese momento.">
+			<opcion1 texto="imagenes/pre_4_1.jpg" />
+			<opcion2 texto="imagenes/pre_4_2.jpg" />
+			<opcion3 texto="imagenes/pre_4_3.jpg" />
+		</pregunta>
+		<pregunta tipo="img" correcta="1" texto="¿En qué recuadro hay un personaje?" txtCorrecta="" txtErronea="Error: Un personaje es un ser humano o animal que aparece en una obra literaria. ">
+			<opcion1 texto="imagenes/pre_5_1.jpg" />
+			<opcion2 texto="imagenes/pre_5_2.jpg" />
+			<opcion3 texto="imagenes/pre_5_3.jpg" />
+		</pregunta>
+		<pregunta tipo="img" correcta="2" texto="¿Cuál de los siguientes recuadros representa una acción?" txtCorrecta="" txtErronea="Error: Una acción es lo que hace un personaje.">
+			<opcion1 texto="imagenes/pre_6_1.jpg" />
+			<opcion2 texto="imagenes/pre_6_2.jpg" />
+			<opcion3 texto="imagenes/pre_6_3.jpg" />
+		</pregunta>
+		<pregunta tipo="img" correcta="3" texto="¿Cuál de los siguientes recuadros representa un escenario?" txtCorrecta="" txtErronea="Error: Un escenario es un lugar en donde ocurren las acciones.">
+			<opcion1 texto="imagenes/pre_7_1.jpg" />
+			<opcion2 texto="imagenes/pre_7_2.jpg" />
+			<opcion3 texto="imagenes/pre_7_3.jpg" />
+		</pregunta>
+	</preguntasImg>
+
+	<preguntasTxt aleatorio="si" mostradas="5" minimoCorrectasEstrella="3"> <!-- aleatorio="si/no" -->
+		<pregunta tipo="opc" correcta="2" texto="¿En dónde se llevó a cabo la historia?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="En una isla" />
+			<opcion2 texto="En la llanura" />
+			<opcion3 texto="En una ciudad" />
+		</pregunta>
+		<pregunta tipo="opc" correcta="1" texto="¿Qué buena idea se le ocurrió a Top?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Leer un rato" />
+			<opcion2 texto="Tomar algo refrescante" />
+			<opcion3 texto="Dormir" />
+		</pregunta>
+		<pregunta tipo="opc" correcta="2" texto="¿Cuál es el libro preferido de Top?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="El Principito" />
+			<opcion2 texto="El ingenioso hidalgo Don Quijote de la Mancha" />
+			<opcion3 texto="Las batallas en el desierto" />
+		</pregunta>
+		<pregunta tipo="opc" correcta="2" texto="¿Qué le cayó en la cabeza a Top?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Una manzana amarilla" />
+			<opcion2 texto="Una manzana roja" />
+			<opcion3 texto="Una bola de boliche" />
+		</pregunta>
+		<pregunta tipo="opc" correcta="2" texto="¿Cuándo descubrió Top al Quijote?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Cuando el Quijote gritó" />
+			<opcion2 texto="Cuando el Quijote le pinchó las costillas" />
+			<opcion3 texto="Cuando el Quijote llamó a Sancho" />
+		</pregunta>
+		<pregunta tipo="opc" correcta="2" texto="¿A qué retó el Quijote a Top?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="A comer un pastel rápidamente" />
+			<opcion2 texto="A un duelo de espadas" />
+			<opcion3 texto="A escalar una montaña" />
+		</pregunta>
+		<pregunta tipo="opc" correcta="2" texto="¿Por qué se sintió Top en desventaja?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Porque era más pequeño." />
+			<opcion2 texto="Porque no tenía una espada." />
+			<opcion3 texto="Porque él no era un caballero." />
+		</pregunta>
+		<pregunta tipo="opc" correcta="2" texto="¿A quién pidió el Quijote que trajera una espada?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="A su caballo." />
+			<opcion2 texto="A Sancho Panza." />
+			<opcion3 texto="A Top." />
+		</pregunta>
+		<pregunta tipo="opc" correcta="1" texto="¿Quién lanzó el primer golpe entre Top y el Quijote?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Top" />
+			<opcion2 texto="Quijote" />
+			<opcion3 texto="Ambos al mismo tiempo" />
+		</pregunta>
+		<pregunta tipo="opc" correcta="3" texto="¿Quién escribió el libro de El ingenioso hidalgo Don Quijote de la Mancha?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Sancho Panza" />
+			<opcion2 texto="Top" />
+			<opcion3 texto="Miguel de Cervantes" />
+		</pregunta>
+		<pregunta tipo="opc" correcta="2" texto="¿Por qué Top se imaginó peleando contra el Quijote?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Porque a Top ya lo venía persiguiendo el Quijote." />
+			<opcion2 texto="Porque lo soñó después de darse un golpe en la cabeza." />
+			<opcion3 texto="Porque el Quijote anda por la calle atacando topos." />
+		</pregunta>
+	</preguntasTxt>
+	
+	<ajustes>
+		<pantalla1>
+			<texto texto="ejemplo" />
+		</pantalla1>
+		<pantalla2>
+			<texto texto="ejemplo" />
+		</pantalla2>
+		<pantalla5>
+			<texto><![CDATA[¡Es momento de jugar!<br><font size="30">Contesta lo que se te pregunta utilizando la información que leíste en el cuento. Arrastra la respuesta hacia el recuadro.</font>]]></texto>
+			<texto texto="Por ejemplo." />
+			<texto texto="¿Cuál de los siguientes animales tiene cuatro patas?" />
+			<texto texto="Arrastra la imagen aquí" />
+		</pantalla5>
+		<pantallaFinal>
+			<texto personaje="1" pos="2" ><![CDATA[¿Qué les pareció la historia, ya habían oído hablar del Quijote?]]></texto>
+			<texto personaje="4" pos="1" ><![CDATA[¡Qué miedo encontrarse al Quijote y que te quiera pegar!]]></texto>
+			<texto personaje="2" pos="2" ><![CDATA[¡No! El Quijote es sólo un personaje de un libro.]]></texto>
+			<texto personaje="3" pos="2" ><![CDATA[Sí, de un libro escrito por el español Miguel de Cervantes.]]></texto>
+			<texto personaje="1" pos="1" ><![CDATA[Así es, el Quijote es el protagonista de “El ingenioso hidalgo don Quijote de la Mancha”]]></texto>
+			<texto personaje="1" pos="1" ><![CDATA[Considerada la obra más importante de la Literatura hispanoamericana.]]></texto>
+		</pantallaFinal>
+	</ajustes>
+
+</book>

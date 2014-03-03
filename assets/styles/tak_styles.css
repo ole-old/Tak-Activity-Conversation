@@ -1,0 +1,2429 @@
+@charset "UTF-8";
+/*estilos reset*/
+body {
+	padding:0;
+	margin:0px;
+	color: #555555;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-repeat:repeat-y;	
+}
+img {
+	border-style: none;
+	outline:none;
+	border:none;
+}
+ul {
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+td { 
+	vertical-align:top;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin:0;
+	padding:0;
+	font-weight:normal;
+}
+a {
+	text-decoration:none;
+	outline:none;
+	border:none;
+}
+p {
+	margin:0;
+	padding:0;
+}
+input { 
+	border:none;
+	display:block;
+	cursor:pointer;
+	text-transform: uppercase;
+}
+
+textarea{
+	text-transform: uppercase;
+}
+@font-face {
+    font-family: 'love_ya_like_a_sisterregular';
+    src: url('../../assets/fonts/loveyalikeasister.eot');
+    src: url('../../assets/fonts/loveyalikeasister.eot?#iefix') format('embedded-opentype'),
+         url('../../assets/fonts/loveyalikeasister.woff') format('woff'),
+         url('../../assets/fonts/loveyalikeasister.ttf') format('truetype'),
+         url('../../assets/fonts/loveyalikeasister.svg#love_ya_like_a_sisterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.tak_container {
+	background-color:#ffffff;
+	width:1024px;
+	overflow:hidden;
+	margin:0 auto 0px ;
+}
+.tak_header {
+	width:914px;
+	margin:0 auto;	
+}
+.tak_header div{
+	float:left;
+}
+.tak_logo {
+	height:100px;
+	width:392px;
+}
+.tak_menuauxiliar_buscador {
+	width:154px;
+	position:relative;
+	
+}
+.tak_menuauxiliar_buscador ul {
+	background: url(../../assets/images/frontend/fondo_menu_auxilar.png) no-repeat;
+	width:152px;
+	height:24px;
+	padding:5px 0 0 0px;
+}
+.tak_menuauxiliar_buscador ul li a {
+	font-size:12px;
+	padding:0 15px;
+	color:#ff8400;
+} 
+.tak_menuauxiliar_buscador ul li {
+	float:left;	
+}   
+.tak_menuauxiliar_buscador ul li a.tak_padres{
+	border-right: solid 1px #ff8400;
+}
+.tak_menuauxiliar_buscador ul li a:hover, #tak_menuauxiliar_activo {
+	color:#472977;
+}
+.tak_menuauxiliar_buscador input[type="text"] {
+	background: url(../../assets/images/frontend/buscador_caja.png) no-repeat;
+	width:118px;
+	height:25px;
+	*height:20px;
+	*padding:5px 10px 0 25px;
+	margin:12px 0 0 0;
+	border:none;
+	padding:0 10px 0 25px;
+
+	color:#999;
+}
+.tak_menuauxiliar_buscador input.buscar {
+	background: url(../../assets/images/frontend/btn_buscador.png) no-repeat;
+	width:18px;
+	height:20px;
+	position:absolute;
+	z-index:1;
+	bottom:1px;
+	left:5px;
+	border:none;
+}
+.tak_menuauxiliar_buscador input[type="button"]:hover {
+	background: url(../../assets/images/frontend/btn_buscadorhover.png);
+}
+.tak_menu_nologueado {
+	width:348px;
+	padding:36px 0 0 0;
+	position:relative;
+}
+.tak_menu_nologueado ul.menu_idioma {
+	right:10px;
+}
+.tak_menu_nologueado a, .tak_menulogueado a{
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+	padding:8px 0 0 0;
+	text-align:center;
+	letter-spacing:-1px;
+	display:block;
+}
+.tak_iniciarsesion, .tak_registrate{ 
+	height:23px;
+	float:left;
+	margin:0 0 0 10px;
+}
+.tak_iniciarsesion {
+	background: url(../../assets/images/frontend/btn_iniciar-sesion.png) no-repeat;
+	width:109px;
+}
+.tak_iniciarsesion:hover {
+	background: url(../../assets/images/frontend/btn_iniciar-sesion_hover.png) no-repeat;
+}
+.tak_registrate {
+	background: url(../../assets/images/frontend/btn_registrate.png) no-repeat;
+	width:98px;
+}
+.tak_registrate:hover {
+	background: url(../../assets/images/frontend/btn_registrate_hover.png) no-repeat;
+}
+ul.menu_idioma {
+	float:left;
+	position:absolute;
+	width:98px;
+	z-index:10;
+}
+.menu_idioma a {
+	background: url(../../assets/images/frontend/btn_menu_idioma.png) no-repeat;
+	width:98px;
+	height:23px;
+	text-align:center;
+	padding-left:0;
+}
+.menu_idioma a:hover {
+	background: url(../../assets/images/frontend/btn_menu_idioma_hover.png) no-repeat;
+	color:#00bef1;
+}
+.menu_idioma li:hover ul {
+	display:block;
+}
+.menu_idioma li ul {
+	display:none;
+	width:98px;
+	background: url(../../assets/images/frontend/btn_menu_idioma_desplegado.png) no-repeat;
+	overflow:visible;
+	height:auto;
+	margin:-1px 0 0 0px;
+	padding:0 0 10px 0px;
+}
+.menu_idioma li ul li{
+	overflow:visible;
+	float:none;	
+}
+.menu_idioma li ul li a{
+	padding:0 0 2px 10px;
+	background-image:none;
+	height:auto;
+	text-align:left
+}
+.menu_idioma li ul li a:hover{
+	background-image:none;
+}
+.tak_menulogueado {
+	width:348px;
+	padding:15px 0 15px 0;
+	position:relative;
+}
+.tak_avatar_menu {
+	background: url(../../assets/images/frontend/logueado_area_avatar.png) no-repeat;
+	width:56px;
+	height:82px;
+	text-align:center;
+	padding:4px 0 0 0 ;
+	margin:0 0 0 105px;
+}
+.tak_avatar_menu img{
+	width:40px;
+}
+.tak_menulogueado .menu_idioma {
+	margin:25px 5px 0 0;
+	*margin:25px 0 0 -160px;
+}
+.tak_opciones_usuario {
+	position:absolute;
+	z-index:11;
+	float:left;
+	margin:42px 0 0 170px;
+	left:0;
+	padding:0;
+	top:0;
+	display:block;
+}
+.tak_opciones_usuario li a{
+	background: url(../../assets/images/frontend/campo_usuario.png) no-repeat;
+	width:131px;
+	height:20px;
+	padding:5px 5px 0 15px;
+	text-align:left;
+	color:#00d2ec;
+	font-size:14px;
+	display:block;
+	background-color:none;
+}
+.tak_opciones_usuario li a:hover{
+	background: url(../../assets/images/frontend/campo_usuario_hover.png) no-repeat;
+}
+.tak_opciones_usuario li {
+    height: 20px;
+}
+.tak_opciones_usuario li:hover ul {
+	display:block;
+}
+.tak_opciones_usuario li ul {
+	display:none;
+	width:140px;
+	background: #fff url(../../assets/images/frontend/campo_usuario_desplegado.png) no-repeat;
+	overflow:visible;
+	margin:-3px 0 0 0px;
+	padding:5px 5px 8px 5px;
+}
+.tak_opciones_usuario li ul li{
+	overflow:visible;
+	float:none;	
+	border-bottom:dotted 1px #00d2ec;
+}
+.tak_opciones_usuario li ul li:last-child{
+	border:none;
+}
+.tak_opciones_usuario li ul li a{
+	padding:3px 0 3px 10px;
+	background-image:none;
+	height:auto;
+	font-size:12px;
+	color:#666;
+}
+.tak_opciones_usuario li ul li a:hover{	
+	color:#fff;
+	background-color:#00bef1;
+	background-image:none;
+}
+.tak_slider {
+	margin:0 auto ;
+	position:relative;
+	width:915px;
+	height:503px;
+	padding:9px 0 0px ;
+	background: #fff url(../../assets/images/frontend/slider_ventana.png) no-repeat;
+}
+.tak_btnjugar {
+	position:absolute;
+	z-index:200;
+	right:40px;
+	top:0;
+}
+.tak_contenido {
+	position:relative;
+	overflow:hidden;
+	width:914px;
+	margin:0 auto;
+	min-height:300px;
+	*z-index:0;
+}
+.tak_banners {
+	left:0;
+	bottom:0px;
+	width:100%;
+	display:block;
+	position:absolute;
+	z-index:150;
+	overflow:hidden;
+	*margin:0 auto;
+}
+.tak_banners div{
+	float:left;
+	width:451px;
+	height:135px;
+	position:relative;
+	display:block;
+}
+.tak_banners div a{
+	position:absolute;
+	z-index:2;
+	display:block; 
+	width:451px;
+	height:135px;
+}
+.tak_banner_der  {
+	text-align:right;
+}
+.tak_banner_izq a {
+	background: url(../../assets/images/frontend/banner_lombrices_liga.png) no-repeat;
+}
+.tak_banner_izq a:hover {
+	background: url(../../assets/images/frontend/banner_lombrices_ligahover.png) no-repeat;
+}
+.tak_banner_der a{
+	margin:0 0 0 5px;
+	*margin:0 0 0 0px;
+	background: url(../../assets/images/frontend/banner_lombrices_liga.png) no-repeat;
+}
+.tak_banner_der a:hover {
+	background: url(../../assets/images/frontend/banner_lombrices_ligahover.png) no-repeat;
+}
+/*sección de juegos y resultados*/
+.tak_fondojuegos {
+
+	width:841px;
+	overflow:hidden;
+	padding:6px 11px 5px 47px;
+	position:relative;
+}
+#tak_juegocontenido {
+	background: url(../../assets/images/frontend/fondo_juego_nvo.png) no-repeat;
+}
+.tak_colizq {
+	float:left;
+	width:236px;
+	margin:0 5px 0 0;
+}
+.tak_colizq h3{
+	color:#fff;
+	font-size:16px;
+	font-family:"love_ya_like_a_sisterregular";
+	margin:0 0 0px 0;
+	padding:0 0 0 10px;
+}
+.tak_colizq  div {
+	margin:0 0 5px 0;
+	display:block;
+	position:relative;
+}
+.tak_colizq  div a {
+	background: url(../../assets/images/frontend/juegosimilar_liga.png) no-repeat;
+	width:234px;
+	height:70px;
+	position:absolute;
+	z-index:3;
+}
+.tak_colizq  div a:hover {
+	background: url(../../assets/images/frontend/juegosimilar_liga_hover.png) no-repeat;
+}
+.tak_regresar_favoritos {
+	width:100%;
+	overflow:hidden;
+	padding:0px 0 0 0px;
+	margin:0 0 0px 0;
+	
+}
+.tak_regresar_favoritos a {
+	float:left;
+	margin:36px 0 0 10px;	
+}
+
+.tak_regresar_favoritos img {
+	float:left;
+	margin:0 194px 0 0;
+}
+#tak_otroboton img {
+		margin:0 119px 0 0;
+}
+.tak_favorito {
+	background: url(../../assets/images/frontend/btn_favoritos_2.png) no-repeat;
+	width:130px;
+	height:27px;
+	color:#000000;
+	font-size:12px;
+	padding:11px 0 0 18px;
+	font-size:12px;
+	display:block;
+	font-family:"love_ya_like_a_sisterregular";
+}
+.tak_favorito:hover {
+	background: url(../../assets/images/frontend/btn_favoritos_2_hover.png) no-repeat;
+	color:#fff;
+}
+.tak_regresartablero {
+	background: url(../../assets/images/frontend/btn_regresartrablero.png) no-repeat;
+	width:155px;
+	height:29px;
+	color:#fff;
+	font-size:12px;
+	padding:13px 0 0 36px;
+	font-size:12px;
+	display:block;
+	font-family:"love_ya_like_a_sisterregular";
+}
+ 
+.tak_usa {
+	width:39px;
+	height:28px;
+	display:block;
+	background: url("../../assets/images/frontend/flag_usa.png") no-repeat;
+	margin:3px 0 0 10px;
+}
+.tak_usa:hover {
+	background: url("../../assets/images/frontend/flag_usa_hover.png") no-repeat;
+
+}
+.tak_regresartablero:hover {
+	background: url(../../assets/images/frontend/btn_regresartrablero_hover.png) no-repeat;
+	color:#000;
+}
+.tak_colder {
+	background: url(../../assets/images/frontend/fondo_naranja.png) no-repeat;
+	float:left;
+	width:595px;
+	height:426px;
+	padding:14px 28px 14px 33px;
+	position:relative;
+}
+.tak_puntaje  {
+	width:398px;
+	height:150px;
+	padding:11px 23px 0;
+	margin:0 0 3px 0;
+}
+.tak_puntaje h1{
+	color:#fff;
+	font-size:16px;
+	margin:0 0 8px 0;
+	padding:0;
+	font-family:"love_ya_like_a_sisterregular";  
+}
+.tak_puntaje_texto   {
+	width:305px;
+	float:left;
+	font-size:12px;
+	color:#fff;
+	margin:-12px 0 0 0;
+}
+.tak_puntaje_avatar {
+	background: url(../../assets/images/frontend/perfil_fondoavatar_nvo.png) no-repeat;
+	float:left;
+	width:75px;
+	height:115px;
+	margin:0 15px 0 0;
+	text-align:center;
+	padding:4px  0 0 1px;
+}
+.tak_puntaje_avatar img {
+	width:55px;
+	background-color:#fff;
+}
+.tak_puntaje h2 {
+	font-size:18px;
+	color:#00d2ed;
+	
+	height:40px;
+	padding:20px 15px 0 0;
+	font-weight:bold;
+}
+.tak_puntaje  h2 span  {
+	border:dotted 3px #ffaa1e;
+	color:#ffaa1e;
+	float:right;
+	padding:7px 12px;
+	margin:-13px 0 0 0;
+	*margin:-34px 0 0 0;
+	font-size:22px;
+}
+.tak_califica {
+	clear:both;
+	
+	width:358px;
+	height:130px;
+	padding:7px 33px 15px ;
+	overflow:hidden;
+	margin:20px auto 0 ;
+}
+.tak_califica .tak_favorito {
+	width:158px;
+	height:32px;
+	display:block;
+	padding:25px 0 0 30px;
+	background: url(../../assets/images/frontend/resultados_btn_fav.png) no-repeat;
+	font-size:15px;
+}
+.tak_califica .tak_favorito:hover {
+	background: url(../../assets/images/frontend/resultados_btn_fav_hover.png) no-repeat;
+}
+.tak_califica a{
+	float:right;
+
+}
+.tak_califica img{
+	margin:10px 10px 0 0px;
+	border:solid  2px #000;
+}
+.tak_califica h5 {
+	font-size:14px;
+	color:#333333;
+	font-family:"love_ya_like_a_sisterregular"; 
+	width:81px;
+	padding:0 0 0 43px;
+	float:left;
+	line-height:20px;
+	background: url(../../assets/images/frontend/calificajuego_mano.png) no-repeat left top;
+	margin:10px 0 0 0;
+}
+.tak_califica fieldset {
+	float:left;
+	width:128px;
+	margin:10px 0 0 0;
+	padding:0 0 0 15px;
+	border:none;
+}
+.tak_califica fieldset label{
+	margin:0 0 5px 0;
+	color:#333;
+	font-size:12px;
+	width:100%;
+	clear:both;
+	display:block;
+}
+.tak_califica ul li input{
+	margin:0 10px 0 0;
+}
+.tak_tudemas {
+	background: url(../../assets/images/frontend/fondo_tudemas.png) no-repeat right top;
+	width:399px;
+	height:335px;
+	margin:0px auto;
+	
+}
+.tak_tudemas h1{
+	color:#662d8c;
+	font-size:16px;
+	padding:0  0 0px 0;
+	margin:0 0 5px 0;
+	border-bottom:solid 4px #eeeeee;
+	font-family:"love_ya_like_a_sisterregular";    
+}
+.tak_tudemas h4 {
+	font-size:30px;
+	color:#ffaa1e;
+	background: url(../../assets/images/frontend/tudemas_fondoavatar.png) no-repeat 45px top;
+	font-family:"love_ya_like_a_sisterregular"; 
+	padding:6px 0 8px 8px;	
+	width:75%;
+	height:55px;
+	border-bottom:solid 1px #eeeeee;
+	margin:3px 0 3px 30px;
+}
+.tak_tudemas  img {
+	margin:0 15px 0 24px;
+	float:left;
+	width:27px;
+}
+.tak_tudemas  p {
+	margin:0 0 0px 0;
+	color:#979797;
+	font-size:18px;
+	font-weight:bold;
+	float:left;
+	width:125px;
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.tak_tudemas span {
+	float:left;
+}
+.tak_tudemas  p strong {
+	 color:#ffaa1e;
+	 font-weight:bold;
+}
+#tak_posicion {
+	background-color:#eeeeee;	
+}
+#tak_posicion p {
+	 color:#00d2ed;
+}
+#tak_posicion p strong{
+	 color:#ffaa1e;
+}
+.tak_footer {
+	text-align:center;
+	font-size:14px;
+	width:100%;
+	overflow:hidden;
+	padding:25px 0 25px;
+}
+.tak_footer a{
+	color:#6c6d6f;
+	padding:0 20px;
+	border-right:solid 1px #CCC;
+}
+.tak_footer a:hover{
+	color:#492977;
+}
+.tak_footer a.tak_sinborde {
+	border-right:none;
+}
+.tak_fondojuegos .tak_colizq .tak_juegoaletorio {
+	background: url(../../assets/images/frontend/btn_juego_aleatorio.png) no-repeat left top;
+	width:212px;
+	height:28px;
+	color:#fff;
+	padding:8px 0 0 20px;
+	margin:30px 0 0 0;
+	display:block;
+	color:#000;
+	font-size:12px;
+	font-family:"love_ya_like_a_sisterregular";
+}
+.tak_fondojuegos .tak_colizq .tak_juegoaletorio:hover {
+	background: url(../../assets/images/frontend/btn_juego_aleatorio_hover.png) no-repeat left top;
+	color:#fff ;
+}
+.tak_puntaje_califica {
+	width:335px;
+	float:left;
+	margin:0 10px 0 0;
+}
+.tak_volverjugar {
+	background: url(../../assets/images/frontend/btn_jugarnuevo.png) no-repeat left top;
+	width:117px;
+	height:29px;
+	color:#fff;
+	padding:5px 0 0 35px;
+	display:block;
+	color:#000;
+	font-family:"love_ya_like_a_sisterregular";
+	font-size:12px;
+}
+.tak_volverjugar:hover {
+	background: url(../../assets/images/frontend/btn_jugarnuevo_hover.png) no-repeat left top;
+	color:#fff;
+}
+.tak_instrucciones {
+	background: url(../../assets/images/frontend/instrucciones_nvo.png) no-repeat left top;
+	width:100%;
+	height:56px;
+	padding:10px 40px 0  ;
+	margin:0px 0px 0 25px;
+}
+.tak_contenido  .tak_instrucciones h1 {
+	font-family:"love_ya_like_a_sisterregular";
+
+	margin:0 0 -5px 0;
+	font-size:14px;
+	color:#ff00ff;
+	padding:0;
+	line-height:14px;
+	*line-height:22px;
+}
+
+.tak_instrucciones  p {
+	float:left;
+	width:586px;
+		color:#ffffff;
+	font-size:14px;
+	margin:5px 0 0 0;
+
+	vertical-align:middle;
+
+}
+.tak_contenido .tak_fondojuegos .tak_instrucciones div p {
+	line-height:20px;
+	margin:0 0 10px 0;
+	width:172px;
+}
+.tak_instrucciones div {
+	float:left;
+	margin:5px 0 0 0;
+	width:172px;
+}
+.tak_instrucciones div h1{
+	margin:0 0 0px 0;
+	padding:0 30px 0 0;
+}
+.tak_instrucciones  p span img{
+	margin:0 8px 0 20px;
+}
+.tak_instrucciones  p span {
+	float:left;
+} 
+.tak_instrucciones  p  strong {
+	padding:5px 0 0 0;
+	margin:5px 0 0 0;
+	line-height:30px;
+	font-weight:normal;
+	
+}
+.tak_colder_2 {
+	background: url(../../assets/images/frontend/fondo_gris.png) no-repeat;
+	float:left;
+	width:605px;
+	height:440px;
+	padding:14px 28px 14px 13px;
+	position:relative;
+} 
+.tak_terminarjuego {
+	font-family:"love_ya_like_a_sisterregular";
+	background: url(../../assets/images/frontend/btn_jugarnuevo.png) no-repeat;
+	width:117px;
+	height:27px;
+	display:block;
+	float:right;
+	color:#000;
+	font-size:11px;
+	padding:5px 0 0 35px;
+	margin:0 10px 0;
+}
+.tak_juego {
+	margin:0px 0 0 0;
+	width:804px;
+	height:434px;
+	position:relative;
+	border:solid 3px #000;
+}
+.tak_juego a { 
+	background: url(../../assets/images/frontend/btn_jugar3.png) no-repeat;
+	display:block;
+	height:138px;
+	width:168px;
+	position:absolute;
+	z-index:3;
+	left:350px;
+	top:150px;
+}
+.tak_juego a:hover { 
+	background: url(../../assets/images/frontend/btn_jugar3_hover.png) no-repeat;
+	display:block;
+}
+.tak_logomateo {
+	margin:25px 0 5px 0;
+	width:100%;
+	text-align:center;
+	
+	display:block;
+
+	height:78px;
+
+}
+.tak_regresar_favoritos .tak_agregarfavorito {
+	background: url(../../assets/images/frontend/btn_agregar_favoritos2.png) no-repeat;
+	width:204px;
+	height:28px;
+	color:#fff;
+	padding:8px 0 0 22px;
+	font-size:12px;
+	display:block;
+	font-family:"love_ya_like_a_sisterregular";
+}
+.tak_regresar_favoritos .tak_agregarfavorito:hover {
+	background: url(../../assets/images/frontend/btn_agregar_favoritos2_hover.png) no-repeat;
+	color:#000;
+}
+.tak_contenidosimple {
+	background: url(../../assets/images/frontend/maestros_fondo.png) no-repeat;
+	width:790px;
+	height:703px;
+	padding:45px 50px 50px 70px ;
+	font-size:14px;
+}
+.tak_contenidosimple h1{
+	font-size:28px;
+	color:#472977;
+	margin:0 0 20px 0;
+	font-family: 'love_ya_like_a_sisterregular';
+}
+.tak_contenidosimple h2{
+	color:#472977;
+	font-size:20px;
+	margin:10px 0 5px 0;
+	font-family: 'love_ya_like_a_sisterregular';
+}
+.tak_avatarcontenido {
+	float:left;
+	width:141px;
+	margin:0 20px 0 0;
+	background: url(../../assets/images/frontend/maestros_fondoavatar.png) no-repeat;
+	text-align:center;
+	padding:15px 0 30px 0;
+}
+.tak_avatarcontenido img{
+	width:100px;
+}
+.tak_texto {
+	float:left;
+	width:554px;
+}
+.tak_texto div{
+	margin:25px 0 70px 0;
+	text-align:right;
+}
+.tak_texto div img{
+	margin:0 0 0 30px;
+	background-color:#fff;
+}
+.tak_contenidosimple .tak_infocentral {
+	margin:30px 0 0 0;
+	padding:0px 30px 30px;
+	overflow:hidden;
+}
+.tak_contenidosimple ul li {
+	background: url(../../assets/images/frontend/maestros_vinieta.png) no-repeat;
+	padding:0 0 0 30px;
+	font-size:14px;
+	color:#472977;
+	margin:0 0 20px 0;	
+}
+.tak_registro {
+	background: url(../images/frontend/registro_fondo.png) no-repeat #86ea00;
+	width:815px;
+	padding:40px 50px 50px 70px ;
+	overflow:auto;
+}
+.tak_registro p{
+	color:#333333;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	line-height:22px;
+	margin:0 20px 0 0;
+}
+.tak_registro h1 {
+	font-size:28px;
+	color:#472977;
+	margin:0 0 0px 0;
+	font-family:"love_ya_like_a_sisterregular"; 
+}
+.tak_formulario {
+	float:left;
+	width:487px;
+	margin:50px 0 15px 142px;
+	*margin:30px 0 15px 142px;
+	overflow:hidden;
+	padding:30px 20px 10px;
+	background: #ffaa1e;
+	border: 10px #e0e922 solid;
+}
+.tak_formulario  h2 {
+	font-size:20px;
+	color:#472977;
+	margin:0 0 5px 0;
+	font-family:"love_ya_like_a_sisterregular";
+}
+.tak_formulario div {
+	float:left;
+	width:243px;
+	padding:35px 0 0 35px;
+	overflow:hidden;
+}
+.tak_formulario div label {
+	background: url(../../assets/images/frontend/fondo_camposregistro.png) no-repeat;
+	width:237px;
+	height:55px;
+	border:none;
+	display:block;
+}
+.tak_formulario div select, .tak_formulario div input[type="text"], .tak_formulario div input[type="password"] {
+	font-size:16px;
+	font-weight:bold;
+	color:#555555;
+	border:none;
+}
+.tak_formulario div select {
+	width:207px;
+	margin:15px 0 0 15px;
+}
+.tak_formulario div input[type="text"], .tak_formulario div input[type="password"] {
+	background: url(../../assets/images/frontend/fondo_camposregistro.png) no-repeat;
+	width:202px;
+	padding:0px 15px 0 15px;
+	height:58px;
+}
+.tak_formulario ul {
+	width:205px;
+	display:block;
+	float:left;
+	overflow:hidden;
+}
+.tak_formulario ul li {
+	margin:0 0 30px 0;
+	background: url(../../assets/images/frontend/vinieta_datosobligatorios.png) no-repeat left center;
+	padding:0 0 0 30px;
+	font-size:14px;
+	color:#472977;
+	margin:0 0 40px 0;	
+}
+.tak_registro .tak_formulario ul li span {
+	font-weight:bold;
+}
+.tak_crearavatar {
+	margin:70px 0 0 20px;
+	float:left;
+	width:304px;
+	height:300px;
+	position:relative;
+}
+.tak_crearavatar h2 {
+	font-size:20px;
+	color:#462b79;
+	font-family:"love_ya_like_a_sisterregular";
+	margin:0;  
+}
+.tak_crearavatar p {
+	font-size:14px;
+	color:#5d3684;
+	font-weight:bold;
+}
+
+.btns_elegir a {
+	padding:10px 0 0 0;
+	text-align:center;
+	height:41px;
+	float:left;
+	display:block;
+	color:#000;
+}
+.btns_elegir a:hover {
+	color:#fff;
+}
+.tak_registrate2 {
+	background: url(../../assets/images/frontend/btn_registrate2.png) no-repeat;
+	width:158px;
+	height:41px;
+	margin:0px 0 0 325px;
+	padding:10px 0 0 0;
+	font-family:"love_ya_like_a_sisterregular";
+	clear:both;
+	display:block;
+	color:#000;
+	text-align:center;
+	font-size:16px;   
+	
+}
+.tak_registrate2:hover {
+	background: url(../../assets/images/frontend/btn_registrate2_hover.png) no-repeat;
+	color:#fff;
+}
+
+.tak_btn_elegiravatar {
+	background: url(../../assets/images/frontend/registro_eligeavatar.png) no-repeat;
+	width:233px;
+	
+}
+.tak_btn_elegiravatar:hover {
+	background: url(../../assets/images/frontend/registro_eligeavatar.png) no-repeat;
+}
+
+
+
+.tak_lightbox {
+	background: url(../../assets/images/frontend/fondo_inicio_sesion.png) no-repeat left top;
+	width:233px;
+	padding:30px 50px 30px 30px;
+	margin:320px 0  0 300px;
+	height:260px;
+	overflow:hidden;
+	top:0;
+	position:absolute;
+	display:none;
+    z-index:1001;
+}
+.tak_lightbox input[type="text"],.tak_lightbox input[type="password"] {
+	background: url(../../assets/images/frontend/caja_iniciasesion.png) no-repeat left top;
+	width:211px;
+	height:22px;
+	border:0;
+	margin:0 0 5px 0;
+	padding:5px 0 0 15px;
+}
+.tak_lightbox p{
+	font-size:13px;
+	color:#000;
+	clear:both;
+	margin:0 0 10px 0;
+}
+.tak_lightbox label.label_check{
+	font-size:13px;
+	color:#000;
+	width:100%;
+	display:block;
+	margin:0 0 0px 0;
+}
+.tak_lightbox .abrir_sesion{
+	background: url(../../assets/images/frontend/btn_abre_sesion.png) no-repeat left top;
+	font-family:Arial, Helvetica, sans-serif;
+	width:88px;
+	height:28px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	padding:2px 0 0 0;
+	display:block;
+	font-size:12px;
+	float:right;
+	margin:0 0 5px 0;
+}
+.tak_lightbox .abrir_sesion:hover{ 
+	background: url(../../assets/images/frontend/btn_abre_sesion_hover.png) no-repeat left top;
+}
+.tak_lightbox h1 {
+	font-size:36px;
+	color:#f8f044;
+	margin:0 0 5px 0;
+	line-height:30px;
+	font-weight:bold;
+}
+.tak_lightbox div {
+	text-align:right;
+	padding:0px 0 0 0;
+}
+.tak_lightbox div p {
+	margin:0;
+}
+.tak_lightbox div p a {
+	color:#0b72b3;
+	background:none;
+	display:inline-block;
+	height:auto;
+	width:auto;
+	font-weight:normal;
+	text-align:right;
+	/*padding:0 0 0 5px;*/
+	margin:0;
+}
+.tak_lightbox div p a:hover {
+	background:none;
+	text-decoration:underline;
+}
+.infobox img {
+  	position: relative;
+ 	 z-index: 2;
+}
+.infobox .more {
+  	display: none;
+}
+.infobox:hover .more {
+	  background-color: #345;
+	  border: 1px solid #89A;
+	  display: block;
+	  font-size: 20px;
+	  height: 130px;
+	  left: -50px;
+	  padding: 5px 20px 5px 140px;
+	  position: absolute;
+	  text-align: justify;
+	  top: -50px;
+	  width: 400px;
+	  z-index: 1;
+}
+.tak_filafavoritos {
+	overflow:hidden;
+	width:100%;
+	position: relative;
+	margin:0 auto -50px;
+	height:185px;
+	padding:30px ;
+}
+.tak_juegofavorito {
+	float:left;
+	position: relative;
+	cursor:pointer;
+	width:172px;
+	height:174px ;
+	background: url(../../assets/images/frontend/fav_fondo.png) no-repeat left top;
+	text-align:left;
+	padding:14px 0 0 13px;
+	margin:0 5px 0 0;
+}
+.tak_juegofavorito:hover .tak_juegohover { 
+	  display: block;
+	  height: 215px;
+	  left: -20px;
+	  position: absolute;
+	  top: -25px;
+	  width: 213px;
+	  z-index: 2;
+	  padding:20px 0 0 20px;
+}
+.tak_juegohover {
+	display:none;
+	background: url(../../assets/images/frontend/fav_fondo_hover.png) no-repeat left top;
+}
+.tak_juegofavorito:hover  img{
+	height:175px;
+	width:175px;
+	position:absolute;
+	z-index:3;
+	left:0;
+	top:0;
+} 
+ .masinfo {
+	display:block;
+	left:15px;
+	bottom:35px;
+	position:absolute;
+	z-index:4;
+	background: url(../../assets/images/frontend/mas_info_c.png) no-repeat left top;
+}
+ .favoritos {
+	display:block;
+	right:40px;
+	bottom:35px;
+	position:absolute;
+	z-index:4;
+	background: url(../../assets/images/frontend/btn_favoritos_3_c_hover.png) no-repeat left top;
+}
+.masinfo, .favoritos {
+	width:33px;
+	height:33px;
+} 
+.tak_juegofavorito:hover   .masinfo {
+	background: url(../../assets/images/frontend/mas_info.png) no-repeat left top;
+	left:5px;
+	bottom:20px;
+}
+.tak_juegofavorito:hover   .masinfo:hover{
+	background: url(../../assets/images/frontend/mas_info_hover.png) no-repeat left top;
+}
+.tak_juegofavorito:hover .favoritos {
+	background: url(../../assets/images/frontend/btn_favoritos_3.png) no-repeat left top;
+	right:15px;
+	bottom:20px;
+}
+.tak_juegofavorito:hover .favoritos:hover {
+	background:url(../../assets/images/frontend/btn_favoritos_3_hover.png) no-repeat left top;
+	right:15px;
+	bottom:20px;
+}
+.tak_juegofavorito:hover  #tak_favoritoactivo {
+	background: url(../../assets/images/frontend/btn_favoritos_3_hover.png) no-repeat left top;
+	
+}
+.tak_juegofavorito #tak_favoritoactivo {
+	background: url(../../assets/images/frontend/btn_favoritos_3b_hover.png) no-repeat left top;
+}
+.tak_juegofavorito:hover .masinfo, .tak_juegofavorito:hover  .favoritos  {
+	display:block;
+	width:45px;
+	height:42px;
+}
+.tak_juegofavorito:hover  h3 {
+	 background:url(../../assets/images/frontend/fondo_puntuacion.png) no-repeat;
+	 width:156px;
+	 height:109px;
+	 padding:10px;
+	 position:absolute;
+	 z-index:3;
+	 top:5px;
+	 left:7px;
+	 display:block;
+	 color:#FFF;
+	 padding:50px 0 0 0;
+	 font-weight:bold;
+	 font-size:15px;
+	 text-align:center;
+	
+}
+
+.tak_juegofavorito h3 {
+	display:none;
+	font-weight:normal;
+}  
+.tak_juegofavorito:hover  h3 span{
+	font-size:25px;
+	font-weight:bold;
+	margin:0;
+	line-height:19px;
+}
+.tak_juegofavorito:hover  h3 span strong{
+	font-size:13px;
+	font-weight:normal;
+}
+.tak_juegofavorito:hover  h4 { 
+	display:block;	
+	background: url(../../assets/images/frontend/tooltip_fondo.png) no-repeat left top;
+	height:36px;
+	padding:25px 0 0 7px;
+	position:absolute;
+	z-index:120;
+	top:150px;
+	*top:140px;
+	left:-22px;
+	width:350px;
+}
+.tak_juegofavorito h4 {
+	display:none;
+}
+.tak_juegofavorito h4 span{
+	float:left;
+	width:33px;
+	height:37px;
+	background:url(../../assets/images/frontend/tooltip_fondo_2.png) no-repeat right top;
+}
+.tak_juegofavorito h4 a{
+	color:#fff;
+	display:block;
+	width:auto;
+	float:left;
+	padding:8px 5px 8px 10px;
+	*padding:8px 5px 9px 10px;
+	background-color:#f59221;
+	font-size:18px;
+	font-weight:bold;
+}
+.tak_juegofavorito h4 a:hover{
+	color:#be2226;
+}
+.tak_contenido_landing {
+	position:relative;
+	overflow:hidden;
+	width:990px;
+	margin:0 auto;
+	min-height:300px;
+	padding:0 0 50px;
+	height:auto;
+}
+.tak_contenido_landing h2{
+	font-family:"love_ya_like_a_sisterregular";
+	margin:30px auto 10px;
+	color:#fff;
+	background:#FF8400;
+	padding:4px 5px 0;
+	text-align:center;
+	width:150px;
+	border:3px dashed #ccc;
+	font-size:16px;
+	height: 67px;
+}
+.tak_contenido_landing h2.landing_izq{
+	font-family:"love_ya_like_a_sisterregular";
+	margin:30px auto 10px;
+	color:#fff;
+	background:#00D2EC;
+	padding:4px 5px 0;
+	text-align:center;
+	width:150px;
+	border:3px dashed #ccc;
+	font-size:16px;
+	height: 67px;
+}
+
+.tak_subir {
+	width:90px;
+	height:135px;
+	*height:155px;
+	overflow:hidden;
+	background:url(../../assets/images/frontend/btn_subir.png) no-repeat right top;
+	display:block;
+	float:right;
+	margin:10px 20px 0 0;
+	z-index: 1000;
+	position: relative;
+	
+}
+.tak_subir:hover {
+	background:url(../../assets/images/frontend/btn_subir_hover.png) no-repeat right top;
+}
+
+/*-----------------Nuevos estilos 06.02.2014-----------------*/
+
+.tak_todos {
+	width:90px;
+	height:135px;
+	*height:155px;
+	overflow:hidden;
+	background:url(../../assets/images/frontend/btn_todos.png) no-repeat right top;
+	display:block;
+	float:right;
+	margin:10px 20px 0 0;
+	z-index: 1000;
+	position: relative;	
+}
+.tak_todos:hover {
+	background:url(../../assets/images/frontend/btn_todos_hover.png) no-repeat right top;
+}
+
+/*-----------------Nuevos estilos 06.02.2014-----------------*/
+
+.tak_contenido_perfil {
+	background:url(../../assets/images/frontend/perfil_fondo.jpg) repeat-y left 40px;
+	padding:10px 40px 30px 50px ;
+	
+	width:100%;
+}
+.tak_contenido_perfil .tak_juegofavorito {
+	margin:0 33px 0 0;
+}
+.tak_logro {
+	padding:15px 0 25px 30px;
+	width:100%;
+	clear:both;
+	margin:15px 0 -30px 0;
+	overflow:hidden;
+}
+.tak_logrodetalle {
+	width:680px;
+	float:left;
+}
+.tak_logrodetalle h3{
+	margin:0 0 15px 0;
+	color:#333333;
+	font-size:22px;
+	font-weight:bold;
+}
+.tak_logrodetalle h4 {
+	font-weight:bold;
+	width:135px;
+	float:left;
+	margin:0 31px 0 0;
+	font-size:14px;
+	color:#ffaa1e;
+}
+.tak_logrodetalle h5 {
+	font-weight:bold;
+	font-size:14px;
+	color:#333333;
+	margin:0 0 5px 0;
+}
+.tak_logrodetalle h4 p {
+	background:url(../../assets/images/frontend/perfil_puntuacion.png) no-repeat left bottom;
+	width:126px;
+	height:37px;
+	display:block;
+	text-align:center;
+	padding:20px 0 0 0;
+	font-size:18px;
+	font-weight:bold;
+	margin:8px 0 0 0;
+}
+.tak_logrodetalle div {
+	width:491px;
+	float:left;
+	color:#6c6d6f;
+}
+.tak_logrodetalle div a {
+	margin:20px 0 0 0;
+	float:right;
+}
+.tak_perfilavatar {
+	background:url(../../assets/images/frontend/maestros_fondoavatar.png) no-repeat left bottom;
+}
+
+.tak_contenido_perfil .tak_filafavoritos .tak_juegofavorito {
+	margin:0 48px 0 0;
+}
+.tak_avatarmenu {
+	width:100%;
+	overflow:hidden;
+	background:url(../../assets/images/frontend/linea.png) no-repeat left bottom;
+	padding:0  0 20px 0;
+	*padding:0  0 0px 0;
+}
+.tak_avatarmenu h1 {
+	color:#6c6d6f;
+	font-size:51px;
+	margin:80px 0 0 0;
+	font-weight:bold;
+}
+.tak_avatarmenu ul {
+	margin:40px 0 0 0;
+}
+.tak_avatarmenu ul li {
+	background:url(../../assets/images/frontend/btn_perfil.png) no-repeat left bottom;
+	width:147px;
+	height:26px;
+	float:left;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	padding:7px 15px 0 0;
+}
+#tak_perfilactivo {
+	background:url(../../assets/images/frontend/btn_perfil_hover.png) no-repeat left bottom;
+}
+.tak_avatarmenu ul li:hover {
+	background:url(../../assets/images/frontend/btn_perfil_hover.png) no-repeat left bottom;
+}
+.tak_avatarmenu ul li a{
+	color:#fff;
+}
+.tak_settings {
+	background:url(../../assets/images/frontend/registro_fondo.png) no-repeat left 20px #86ea00;
+	width:909px;
+	padding:0 5px 25px 0px;
+	overflow:hidden;
+	margin:0;
+	position:relative;
+}
+.tak_settings .tak_formulario div {
+	padding:0 0 0 30px;
+	
+}
+ .tak_settings .tak_formulario {
+	margin:110px 0 0 230px;
+	
+}
+.tak_settings .tak_formulario label, .tak_settings .tak_formulario input[type="text"]{
+	margin:0 0 5px 0;
+}
+.tak_settings .tak_formulario ul {
+	margin:25px 0 0 0;
+
+}
+.tak_settings .tak_formulario ul li {
+	margin:0 0 42px;
+	padding:0 0 0 18px;
+}
+
+.tak_perfil_elige {
+	background:url(../../assets/images/frontend/perfil_elegiravatar.png) no-repeat left top;
+	width:267px;
+	height:42px;
+	color:#000;
+	clear:both;
+	text-align:center;
+	display:block;
+	padding:15px 0 0 0;
+	font-family:"love_ya_like_a_sisterregular";
+	font-size:18px;
+	margin:70px 0 65px 330px;
+	float:left;
+}
+a.cerrar {
+	background:url(../../assets/images/frontend/elige_cerrar.png) no-repeat left top;
+	width:30px;
+	height:30px;
+	display:block;
+	position:absolute;
+	z-index:1;
+	right:70px;
+	top:30px;
+}
+a.cerrar:hover {
+	background:url(../../assets/images/frontend/elige_cerrar_hover.png) no-repeat left top;
+}
+#tak_form_secundario  {
+	margin:0;
+	width:487px;
+	margin:140px 0 0 230px;
+}
+#tak_form_secundario  {
+	padding:0;
+}
+#tak_form_secundario table.tak_ninonina {
+	height:30px;
+	margin:10px 0;
+	width:150px;
+}
+.tak_input {
+	width:24px;
+}
+#tak_form_secundario ul li  {
+	background-image:none;
+	color:#000;
+	margin:0 0 45px 0;
+}
+#tak_form_secundario .tak_listaderecha  {
+	width:170px;
+}
+#tak_form_secundario .tak_listaderecha  li {
+	padding:0 0 0 15px;
+	margin:0 0 39px 0;
+}
+#tak_form_secundario textarea {
+	background:url(../../assets/images/frontend/textarea.jpg) no-repeat left top;
+	width:203px;
+	height:60px;
+	border:none;
+	padding:20px;
+	color: #555555;
+    font-size: 16px;
+	resize:none;
+    font-weight: bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#tak_form_secundario .tak_nacimiento {
+	margin:10px 0 15px 0;
+}
+#tak_form_secundario .tak_nacimiento label {
+	height:40px;
+}
+#tak_form_secundario .tak_nacimiento td.tak_fecha {
+	background:url(../../assets/images/frontend/cajas_fecha.png) no-repeat left top;
+	height:25px;
+	padding:12px 0 0 5px;
+	width:168px;
+}
+#tak_form_secundario .tak_nacimiento td.tak_fecha  input {
+	background-image:none;
+	height:20px;
+	padding:5px 0 0 0;
+	margin:0;
+	float:left;
+}
+#tak_form_secundario .tak_nacimiento td.tak_fecha  input.dia_mes {
+	width:25px;
+	padding:0 0 0 5px;
+	margin:0 15px 0 0;
+}
+#tak_form_secundario .tak_nacimiento td.tak_fecha  input.anio {
+	width:45px;
+	margin:0 0 0 5px;
+}
+.tak_calendario {
+	color:#333;
+	padding:0 0 0px 0;
+}
+.tak_contenido_perfil  .tak_calendario input[type="button"] {
+	background:url(../../assets/images/frontend/perfil_calendar.png) no-repeat left top;
+	width:44px;
+	height:44px;
+	clear:both;
+	display:block;
+	margin:0 0 5px 0;
+	padding:0;
+}
+.tak_calendario input[type="button"]:hover {
+	background:url(../../assets/images/frontend/perfil_calendar_hover.png) no-repeat left top;
+}
+.tak_calendario  input[type="checkbox"] {
+	margin:0 5px 0 0;
+}
+.tak_guardarcambios {
+	background:url(../../assets/images/frontend/btn_guardarcambios2.png) no-repeat left top;
+	width:222px;
+}
+.tak_guardarcambios:hover {
+	background:url(../../assets/images/frontend/btn_guardarcambios2_hover.png) no-repeat left top;
+	color:#fff;
+}
+.tak_cancelar {
+	background:url(../../assets/images/frontend/btn_cancelar.png) no-repeat left top;
+	width:151px;
+}
+.tak_cancelar:hover {
+	background:url(../../assets/images/frontend/btn_cancelar_hover.png) no-repeat left top;
+	color:#fff;
+}
+.tak_btn_perfil {
+}
+.tak_botones {
+	overflow:hidden;
+	display:block;
+}
+
+.tak_botones input{
+	float:left;
+	margin:80px 0px 80px 25px;
+	height:49px;
+	display:block;
+
+	font-family:"love_ya_like_a_sisterregular";
+	font-size:16px;
+}
+.tak_formulario div.tak_botones {
+	width:100%;
+	clear:both;
+	margin:0;
+}
+.tak_avatarflotado, .tak_avatarflotado2 {
+	width:133px;
+	height:244px;
+	display:block;
+	position:absolute;
+	z-index:1;
+}
+.tak_avatarflotado img, .tak_avatarflotado2 img  {
+	width:143px;
+
+}
+.tak_avatarflotado {
+	top:285px;
+	right:50px;
+}
+.tak_avatarflotado2 {
+	bottom:205px;
+	left:30px;
+}
+
+.tak_lightbox_queremos {
+	width:492px;
+	overflow:hidden;
+	top:0;
+	display:none;
+	 position:absolute;
+ 	z-index:1001;
+}
+.tak_plecasuperior {
+	background:url(../../assets/images/frontend/pleca_superior.png) no-repeat 1px top;
+	width:100%;
+	height:17px;
+}
+.tak_plecainferior {
+	background:url(../../assets/images/frontend/pleca_inferior.png) no-repeat left top;
+	width:100%;
+	height:58px;
+}
+.tak_contenido_queremos {
+	background:url(../../assets/images/frontend/loop_lightbox.png) repeat-y left top;
+	padding:0px 55px 10px 65px;
+	color:#000000;
+	overflow:hidden;
+}
+.tak_contenido_queremos h1 {
+	font-size:30px;
+	color:#f8f044;
+	margin:0 0 10px 0;
+	font-weight:bold;
+}
+.tak_contenido_queremos table {
+	margin: 0 0 10px 0;
+}
+.tak_fondofecha {
+	background:url(../../assets/images/frontend/fondo_input.png) no-repeat left top;
+	width:110px;
+	height:22px;
+	padding:2px 0 0 5px;
+}
+.tak_fondofecha input[type=text]{
+	float:left;
+}
+.tak_diames2 {
+	width:15px;
+	border:none;
+	margin:0 16px 0 0;
+}
+.tak_anio2 {
+	border:none;
+	width:35px;
+}
+.tak_contenido_queremos table td {
+	vertical-align:central;
+}
+.tak_contenido_queremos table td input[type=button]{
+	background:url(../../assets/images/frontend/calendario_lightbox.png) no-repeat left top;
+	width:25px;
+	height:21px;
+}
+.tak_fechanacimiento {
+	width:140px;
+	padding:4px 0 0 0;
+}
+.tak_contenido_queremos table td p{
+	margin:0;
+}
+.tak_contenido_queremos input.tak_guardar, .tak_contenido_queremos input.tak_ahorano {
+	display:block;
+	color:#fff;
+	height:29px;
+	float:left;
+	font-weight:bold;
+	font-size:13px;
+	padding:0 0 5px 0;
+}
+.tak_contenido_queremos input.tak_guardar{
+	background:url(../../assets/images/frontend/btn_guardar.png) no-repeat left top;
+	width:86px;
+	margin:15px 20px 0 70px;
+	line-height:0;	
+}
+.tak_contenido_queremos input.tak_guardar:hover{
+	background:url(../../assets/images/frontend/btn_guardar_hover.png) no-repeat left top;
+}
+.tak_contenido_queremos input.tak_ahorano {
+	background:url(../../assets/images/frontend/btn_ahora.png) no-repeat left top;
+	width:144px;
+	margin:15px  0 0px 0;
+}
+.tak_contenido_queremos input.tak_ahorano:hover {
+	background:url(../../assets/images/frontend/btn_ahora_hover.png) no-repeat left top;
+}
+.tak_fondo1 {
+	background:url(../../assets/images/frontend/perfil_btn1avatar.png) no-repeat left top;
+	width:46px;
+	height:42px;
+	display:block;
+}
+.tak_fondo1:hover {
+	background:url(../../assets/images/frontend/perfil_btn1avatar_hover.png) no-repeat left top;
+}
+.tak_fondo2 {
+	background:url(../../assets/images/frontend/perfil_btn2avatar.png) no-repeat left top;
+	width:46px;
+	height:42px;
+	display:block;
+}
+.tak_fondo2:hover {
+	background:url(../../assets/images/frontend/perfil_btn2avatar_hover.png) no-repeat left top;
+}
+.tak_fondo3 {
+	background:url(../../assets/images/frontend/perfil_btn3avatar.png) no-repeat left top;
+	width:45px;
+	height:41px;
+	display:block;
+}
+.tak_fondo3:hover {
+	background:url(../../assets/images/frontend/perfil_btn3avatar_hover.png) no-repeat left top;
+}
+.tak_siguiente {
+	background:url(../../assets/images/frontend/btn_guardarcambios.png) no-repeat left top;
+	width:111px;
+	height:70px;
+	display:block;
+	position:absolute;
+	z-index:1;
+	top:290px;
+	right:40px;
+	border:none;
+	font-size:14px;
+	color:#472977;
+	font-family:"love_ya_like_a_sisterregular";   
+}
+.tak_siguiente:hover {
+	background:url(../../assets/images/frontend/btn_guardarcambios_hover.png) no-repeat left top;
+	color:#000;
+}
+.tak_califica .tak_terminarjuego {
+	font-family:"love_ya_like_a_sisterregular";
+	background: url(../../assets/images/frontend/perfil_btn_volver.png) no-repeat;
+	width:153px;
+	height:33px;
+	display:block;
+	padding:8px 0 0 45px;
+	margin:5px 0 0 0;
+	color:#000;
+	font-size:15px;
+}
+.tak_califica .tak_terminarjuego:hover {
+	background: url(../../assets/images/frontend/perfil_btn_volver_hover.png) no-repeat;
+	color:#fff;
+}
+label{cursor:pointer;}
+.tak_lightbox .label_check,
+.tak_califica .label_radio  { padding-left: 25px; cursor:pointer; }
+.tak_califica .label_radio { background: url(../../assets/images/frontend/calificajuego_radio.png) no-repeat; }
+.tak_lightbox .label_check { background: url(../../assets/images/frontend/casilla.png) no-repeat;
+	height:22px;
+	margin:0;
+	padding:4px 0px 0 25px;
+	width:18px;
+}
+.tak_lightbox label.c_on { background: url(../../assets/images/frontend/casilla_seleccionada.png) no-repeat; }
+.tak_califica label.r_on { background: url(../../assets/images/frontend/calificajuego_radio_seleccionado.png) no-repeat; }
+.tak_lightbox .label_check input,
+.tak_califica .label_radio input { position: absolute; left: -9999px; }
+#tak_form_secundario .label_check,
+#tak_form_secundario .label_radio { padding-left: 20px;}
+#tak_form_secundario .label_radio { background: url(../../assets/images/frontend/radiobutton_morado_inactivo.png) no-repeat;
+width:40px;
+height:14px;
+float:left; 
+}
+#tak_form_secundario .label_check {  background: url(../../assets/images/frontend/casilla_morada.png) no-repeat; }
+#tak_form_secundario label.c_on { background: url(../../assets/images/frontend/casilla_seleccionada_morada.png) no-repeat;  }
+#tak_form_secundario label.r_on { background: url(../../assets/images/frontend/radiobutton_morado.png) no-repeat; }
+#tak_form_secundario .label_check input,
+#tak_form_secundario .label_radio input { position: absolute; left: -9999px; }
+
+#tak_form_secundario fieldset{
+	border:none;
+
+}
+.tak_terminarjuego2 {
+	background: url("../../assets/images/frontend/btn_terminarjuego3.png") no-repeat scroll 0 0 transparent;
+    color: #000000;
+    display: block;
+    float: right;
+    font-family: "love_ya_like_a_sisterregular";
+    font-size: 13px;
+    height: 30px;
+    margin: 0 60px 0 0;
+    padding: 10px 0 0 45px;
+    width: 200px;
+
+}
+.tak_terminarjuego2:hover {
+	background: url("../../assets/images/frontend/btn_terminarjuego3_hover.png") no-repeat scroll 0 0 transparent;
+	color:#fff;
+}
+.tak_segundacolumna {
+	margin:0px 0 0 0;
+}
+.tak_segundacolumna input, .tak_segundacolumna label, .tak_segundacolumna textarea {
+	margin:0px 0 10px 0;
+}
+.tak_lightbox_queremos .label_check,
+.tak_lightbox_queremos .label_radio { padding-left: 22px; }
+.tak_lightbox_queremos .label_radio { background: url(../../assets/images/frontend/radiobutton_morado_inactivo.png) no-repeat;
+width:40px;
+height:14px;
+float:left; 
+}
+.tak_lightbox_queremos .label_check { background: url(../../assets/images/frontend/casilla.png) no-repeat; height:25px; padding:2px 0 3px 25px;  }
+.tak_lightbox_queremos label.c_on { background: url(../../assets/images/frontend/casilla_seleccionada.png) no-repeat; url(../../assets/images/frontend/radiobutton_morado.png) no-repeat; }
+.tak_lightbox_queremos .label_check input,
+.tak_lightbox_queremos .label_radio input { position: absolute; left: -9999px; }
+
+audio {
+	visibility:hidden;
+	display:none;
+}
+
+#tak_resultados {
+	background: url("../../assets/images/frontend/resultados_fondo.png") no-repeat scroll 0 0 transparent;
+	width:900px;
+	height:859px;
+	position:relative;
+}
+
+.tak_columna_resultados {
+	margin:0 auto;
+	width:460px;
+}
+
+.tak_avatar2 {
+	width:180px;
+	height:339px;
+	display:block;
+	position:absolute;
+	z-index:1;
+	bottom:80px;
+	right:100px;
+}
+#tak_resultados .tak_regresartablero{
+	position:absolute;
+	z-index:1;
+	top:124px;
+	left:15px;
+	
+}
+
+
+
+.rotar{
+    -webkit-transform: rotateZ(20deg);
+    -moz-transform: rotateZ(20deg);
+    -o-transform: rotateZ(20deg);
+}
+
+
+
+
+
+
+.tak_ninonina .label_check,
+.tak_ninonina  .label_radio { padding-left: 20px;}
+.tak_ninonina  .label_radio { background: url(../../assets/images/frontend/radiobutton_morado_inactivo.png) no-repeat;
+width:40px;
+height:14px;
+float:left; 
+}
+.tak_ninonina  .label_check {  background: url(../../assets/images/frontend/casilla_morada.png) no-repeat; }
+.tak_ninonina  label.c_on { background: url(../../assets/images/frontend/casilla_seleccionada_morada.png) no-repeat;  }
+.tak_ninonina  label.r_on { background: url(../../assets/images/frontend/radiobutton_morado.png) no-repeat; }
+.tak_ninonina  .label_check input,
+.tak_ninonina  .label_radio input { position: absolute; left: -9999px; }
+
+.tak_ninonina  fieldset{
+	border:none;
+
+}
+
+.tak_contenido  .tak_registro .tak_formulario table.tak_ninonina, .tak_settings table.tak_ninonina {
+	margin:20px 0 0 0;
+	width:250px;
+}
+
+#no_gracias {
+	width:75px;
+}
+
+.txt_terms { width: 540px; height: 300px; overflow: auto; margin: 80px 0 0 40px; }
+.txt_terms a { color: #555555; text-decoration: underline; }
+
+.tak_lightbox_avatar, .div_terms {
+	 background: url(../../assets/images/frontend/elige_fondo.png) no-repeat;
+	 width:666px;
+	 height:484px;
+	 top:0;
+	position:absolute;
+    z-index:1301;
+	display:none;
+}
+
+.tak_guardar_avatar {
+	 background: url(../../assets/images/frontend/elige_btnguardar.png) no-repeat;
+	 width:209px;
+	 height:38px;
+	 display:block;
+	 font-family:"love_ya_like_a_sisterregular";
+	 color:#000;
+	 text-align:center;
+	 padding:10px 0 0 0;
+	 float:right;
+	 margin:20px 70px 0 0;
+	 
+	
+	font-size:14px;
+}
+.tak_guardar_avatar:hover {
+	 background: url(../../assets/images/frontend/elige_btnguardar_hover.png) no-repeat;
+	 color:#fff;
+}
+
+
+
+
+
+
+.jcarousel-control a:focus,
+.jcarousel-control a:active {
+    outline: none;
+		 background: url(../../assets/images/frontend/elige_cirmor.png) no-repeat;
+}
+
+
+
+.tag_seleccionado {
+	outline: none;
+		 background: url(../../assets/images/frontend/elige_cirmor.png) no-repeat !important;
+}
+
+.jcarousel-scroll {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.jcarousel-scroll form {
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel-scroll select {
+    font-size: 75%;
+			 background: url(../../assets/images/frontend/elige_cirmor.png) no-repeat;
+}
+
+#mycarousel-next,
+#mycarousel-prev {
+    cursor: pointer;
+    margin-bottom: -10px;
+    text-decoration: underline;
+    font-size: 11px;
+}
+
+
+
+
+.jcarousel-skin-tango .jcarousel-direction-rtl {
+	direction: rtl;
+}
+
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+    width:  555px;
+	margin:0 0 0 40px;
+
+}
+
+.jcarousel-skin-tango .jcarousel-container-vertical {
+    width: 75px;
+    height: 245px;
+    padding: 40px 20px;
+}
+
+.jcarousel-skin-tango .jcarousel-clip {
+    overflow: hidden;
+}
+
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+    width:  480px;
+	margin:15px 0 0 38px;
+   
+}
+
+.jcarousel-skin-tango .jcarousel-clip-vertical {
+    width:  75px;
+    height: 245px;
+}
+
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-item-horizontal {
+	margin-left: 10px;
+    margin-right: 0;
+}
+
+.jcarousel-skin-tango .jcarousel-item-vertical {
+    margin-bottom: 10px;
+}
+
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+    position: absolute;
+    top: 43px;
+    right: 5px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(next-horizontal.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-next-horizontal {
+    left: 5px;
+    right: auto;
+    background-image: url(prev-horizontal.png);
+}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-horizontal:focus {
+    background-position: -32px 0;
+}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal:active {
+    background-position: -64px 0;
+}
+
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:focus,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+    background-position: -96px 0;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 43px;
+    left: 5px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(prev-horizontal.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+    left: auto;
+    right: 5px;
+    background-image: url(next-horizontal.png);
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal:hover, 
+.jcarousel-skin-tango .jcarousel-prev-horizontal:focus {
+    background-position: -32px 0;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+    background-position: -64px 0;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:focus,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    background-position: -96px 0;
+}
+
+/**
+ *  Vertical Buttons
+ */
+.jcarousel-skin-tango .jcarousel-next-vertical {
+    position: absolute;
+    bottom: 5px;
+    left: 43px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(next-vertical.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-next-vertical:hover,
+.jcarousel-skin-tango .jcarousel-next-vertical:focus {
+    background-position: 0 -32px;
+}
+
+.jcarousel-skin-tango .jcarousel-next-vertical:active {
+    background-position: 0 -64px;
+}
+
+.jcarousel-skin-tango .jcarousel-next-disabled-vertical,
+.jcarousel-skin-tango .jcarousel-next-disabled-vertical:hover,
+.jcarousel-skin-tango .jcarousel-next-disabled-vertical:focus,
+.jcarousel-skin-tango .jcarousel-next-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -96px;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-vertical {
+    position: absolute;
+    top: 5px;
+    left: 43px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(prev-vertical.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-vertical:hover,
+.jcarousel-skin-tango .jcarousel-prev-vertical:focus {
+    background-position: 0 -32px;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-vertical:active {
+    background-position: 0 -64px;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-disabled-vertical,
+.jcarousel-skin-tango .jcarousel-prev-disabled-vertical:hover,
+.jcarousel-skin-tango .jcarousel-prev-disabled-vertical:focus,
+.jcarousel-skin-tango .jcarousel-prev-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -96px;
+}
+
+.tak_lightbox_avatar h1 {
+	 font-family:"love_ya_like_a_sisterregular";
+	font-size:20px;
+	color:#4b237d;
+	margin:45px 0 0 40px;
+	line-height:20px;
+	padding:0;
+}
+
+#mycarousel-prev {
+	 background: url(../../assets/images/frontend/elige_btnatr.png) no-repeat;
+	 width:30px;
+	 height:243px;
+	 display:block;
+	 text-indent:-9999px;
+	 position:absolute;
+	 z-index:1;
+	 position:absolute;
+	 top:0;
+	 left:0px;
+}
+
+#mycarousel-prev:hover {
+	 background: url(../../assets/images/frontend/elige_btnatr_hover.png) no-repeat;
+}
+.jcarousel-skin-tango { 
+	position:relative;
+	*margin:16px 0 0 0;
+}
+
+
+.jcarousel-skin-tango .jcarousel-item {
+	padding:30px 0 0 30px;
+	 background: url(../../assets/images/frontend/elige_fondoavatar.png) no-repeat;
+	 width:122px;
+	 height:214px;
+	 display:block;
+}
+.jcarousel-skin-tango .jcarousel-item img{
+	width:95px;
+	
+}
+
+
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+	margin-left: 0;
+    margin-right: 12px;
+}
+
+#mycarousel-next {
+	 background: url(../../assets/images/frontend/elige_btnade.png) no-repeat;
+	 width:30px;
+	 height:243px;
+	 display:block;
+	 text-indent:-9999px;
+	 position:absolute;
+	 z-index:1;
+	 position:absolute;
+	 top:0;
+	 right:0px;
+}
+#mycarousel-next:hover {
+	 background: url(../../assets/images/frontend/elige_btnade_hover.png) no-repeat;
+}
+
+
+.jcarousel-control {
+	position:absolute;
+	z-index:1;
+   
+    text-align: center;
+	top:260px;
+	width:120px;
+}
+
+.jcarousel-control a {
+	 background: url(../../assets/images/frontend/elige_cirblank.png) no-repeat;
+	 height:7px;
+	 width:7px;
+	 text-indent:-9999px;
+	 display:block;
+	 float:left;
+	 margin: 0 4px 4px 0;
+	 
+}
+
+.tak_fondo_seleccionado {
+	 background: url(../../assets/images/frontend/elige_avatarseleccionado.png) no-repeat;
+	 height:305px;
+	 width:156px;
+	 position:absolute;
+	 z-index:1;
+	 top:50px;
+	 left:240px;
+	 display:block;
+
+}
+
+.siavatar {
+	background: url(../../assets/images/frontend/btn_siavatar.png) no-repeat;
+	color:#666;
+	display:block;
+	height:23px;
+	margin:-10px 10px 0 0;
+	float:left;
+	font-weight:bold;
+	font-size:16px;
+	width:43px;
+	height:28px;
+	padding:15px 0 0 0;
+	text-align:center;
+	
+}
+.siavatar:hover {
+	background: url(../../assets/images/frontend/btn_siavatar_hover.png) no-repeat;
+	color:#fff;
+}
+
+.no_avatar {
+	background: url(../../assets/images/frontend/btn_nogracias.png) no-repeat;
+		color:#666;
+	display:block;
+	height:23px;
+	margin:-10px 10px 0 0;
+	float:left;
+	font-weight:bold;
+	font-size:16px;
+	width:139px;
+	height:38px;
+	padding:15px 0 0 0;
+	text-align:center;
+}
+
+.no_avatar:hover {
+	background: url(../../assets/images/frontend/btn_nogracias_hover.png) no-repeat;
+	color:#fff;
+}
+
+#tak_form_secundario li.tak_otro {
+	color:#007381;
+	background: url(../../assets/images/frontend/vinietalista.png) no-repeat 18px center;
+	padding:0 0 0 32px;
+}
+
+.ventanaGracias {
+	background:#FF0;
+	font-family:"love_ya_like_a_sisterregular";
+	padding:40px 40px 30px;
+	font-size:30px;
+	text-align:center;
+	width: 500px;
+	border: 10px #F3C solid;
+	color:#F3C;
+	
+	}
+.ventanaGracias span {
+	font-size: 16px;
+	color:#393;
+	}
+	
+	
+.fix_check{
+
+	display:inline-block;
+	font-size:13px !important;
+}
+.texto_check{
+	font-size:13px !important;
+	color:#000;
+}
+/* -------- ajustes 22 ago -----*/
+
+.tak_terminarjuego3 {
+	background: url(../../assets/images/frontend/btn_terminarjuego3.png) no-repeat scroll 0 0 transparent;
+    color: #000000;
+    display: block;
+    float: right;
+    font-family: "love_ya_like_a_sisterregular";
+    font-size: 13px;
+    height: 30px; 
+    margin: 0 60px 0 0;
+    padding: 20px 0 0 45px;/*cambie de 10 a 20 px para espaciar boton y la imagen la agrande con espacio inicial*/
+    width: 200px;
+	cursor: pointer;
+}
+.tak_terminarjuego3:hover {
+	background: url(../../assets/images/frontend/btn_terminarjuego3_hover.png) no-repeat scroll 0 0 transparent;
+	color:#fff;
+	display: block;
+    float: right;
+    font-family: "love_ya_like_a_sisterregular";
+    font-size: 13px;
+    height: 30px; 
+    margin: 0 60px 0 0;
+    padding: 20px 0 0 45px;/*cambie de 10 a 20 px para espaciar boton y la imagen la agrande con espacio inicial*/
+    width: 200px;
+}
+.tak_advertencia {
+	width: 340px;
+	padding: 40px 20px 80px;
+	background: #FF0;
+	border: 4px solid #F00;
+	text-align:center;
+	font-family:"love_ya_like_a_sisterregular";
+	}
+.tak_advertencia input {
+	background:#33C;
+	color:#FFF;
+	border-bottom: solid 3px #fff;
+	border-right: solid 3px #fff;
+	float:left;
+	width: 100px;
+	margin: 20px 0px 20px 43px;
+	padding: 5px 0px;
+	text-transform: uppercase;
+	}
+.tak_advertencia input:hover {
+	background: #F00;
+	
+	}
+	
+/* -------- ajustes 22 ago -----*/
+
+.tak_lightbox_advertencia {
+	width: 340px;
+	padding: 40px 20px 80px;
+	background: #FF0;
+	border: 4px solid #F00;
+	text-align:center;
+	font-family:"love_ya_like_a_sisterregular";
+	}
+.tak_lightbox_advertencia input {
+	background:#33C;
+	color:#FFF;
+	border-bottom: solid 3px #fff;
+	border-right: solid 3px #fff;
+	float:left;
+	width: 100px;
+	margin: 20px 0px 20px 43px;
+	padding: 5px 0px;
+	text-transform: uppercase;
+	}
+.tak_lightbox_advertencia input:hover {
+	background: #F00;
+	
+	}
+	
+.error  {
+	margin:0px 0 10px 8px;
+	display:block;
+	font-size:12px;
+	color:red;
+	text-shadow: 0px 1px #999;
+}
+
+
+.juegos_matriz{
+	left: 50%;
+margin-left: -175px;
+position: relative;
+text-align: center;
+width: 350px;
+height: 279px;
+}
+.juegos_matriz .cont_izq{
+	width: 175px;
+	height: 255px;
+	float: left;
+}
+.juegos_matriz .cont_der{
+	width: 175px;
+	height: 255px;
+	float: left;
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book> 
+     
+    <texto maximoTiempoEstrella="180" titulo="Huye del Tejón">
+        <parrafo animus="neutral">
+            <![CDATA[En lo más profundo y oscuro de una madriguera, se encontraba <font color="#CC4E27">Top</font>, el más veloz de todos los topos de ciudad <font color="#CC4E27">TopoTop</font>. Era justo la hora de la comida, así que <font color="#CC4E27">Top</font> se disponía a comer las raíces de un delicioso rábano que habían brotado a la mitad de la madriguera. Cuando de pronto, escuchó un sonido extraño... <font color="#CC4E27">¡pum, pum,pum!</font> Eran los pasos de un ser más grande que se aproximaba.<br><br>La madriguera comenzó a cimbrarse a cada paso, la tierra se desgajaba, un ser muy grande estaba aproximándose.]]>
+        </parrafo>
+        <parrafo animus="neutral">
+            <![CDATA[No había duda, <font color="#CC4E27">Top</font> tenía compañía. Su agudo olfato le hizo comprender que se trataba del astuto <font color="#CC4E27">Señor Tejón</font>, las cuatro patas de <font color="#CC4E27">Top</font> comenzaron a moverse para escapar del lugar, sin embargo el <font color="#CC4E27">veloz Tejón</font> estaba muy cerca, su puntiaguda cabeza se aproximaba cada vez más y más a <font color="#CC4E27">Top</font> que corría con todas sus fuerzas. Pero llegó el momento en que la madriguera se acabó. No había más camino.<br><br><font color="#CC4E27">El Señor Tejón</font> se detuvo y miró a <font color="#CC4E27">Top</font> con un gesto de victoria. Después de haber sido rivales por mucho tiempo, se volvían a encontrar y esta vez, <font color="#CC4E27">Tejón</font> parecía tener la ventaja.]]>
+        </parrafo>
+        <parrafo animus="neutral">
+            <![CDATA[<font color="#CC4E27">Top</font> estaba paralizado. <font color="#CC4E27">Tejón</font> abrió la boca dejando ver su afilada dentadura que estaba lista para lanzar una mordida.<br><br>Top parecía estar arrinconado y a punto de ser devorado por el hambriento <font color="#CC4E27">Tejón</font>. Fue entonces que <font color="#CC4E27">Top</font> se armó de valor, y con sus afiladas garras empezó a excavar un nuevo surco dentro de la madriguera, uno muy pequeño del tamaño de su diminuto cuerpo, donde el <font color="#CC4E27">Tejón</font> no pudiera ingresar. <font color="#CC4E27">Top</font> excavó y excavó, apoyándose del increíble tacto que tiene su hocico para guiarlo entre lugares pequeños y oscuros.]]>
+        </parrafo>
+        <parrafo animus="neutral">
+            <![CDATA[<font color="#CC4E27">El Tejón</font>, que cuenta con grandes garras para escavar, no pudo llegar muy lejos, pues no contaba con la misma movilidad debajo de la tierra. Por lo que perdió rápidamente la pista de <font color="#CC4E27">Top</font>. <font color="#CC4E27">El Señor Tejón</font> estaba muy molesto pues se le había escapado nuevamente el ingenioso topo.<br><br><font color="#CC4E27">Top</font> llegó cansado a casa, había sido un día difícil, por lo que decidió premiarse cenando una rica sopa de lombrices después de la agitada mañana.<br><br><font color="#FF0000"><center><b>FIN</b></center></font>]]>
+        </parrafo>
+    </texto>
+    <preguntas aleatorio="si" mostradas="5" minimoCorrectasEstrella="3"> <!-- shuffle="si/no" -->
+        <pregunta tipo="opc" correcta="1" texto="¿Quién es el protagonista de la historia?" txtCorrecta="" txtErronea="">
+            <opcion1 texto="Top" />
+            <opcion2 texto="Señor Tejón" />
+            <opcion3 texto="La raíz de rábano" />
+        </pregunta>
+        <pregunta tipo="opc" correcta="1" texto="¿En dónde ocurre la historia?" txtCorrecta="" txtErronea="">
+            <opcion1 texto="Una madriguera" />
+            <opcion2 texto="Campo" />
+            <opcion3 texto="Cerca de un árbol" />
+        </pregunta>
+        <pregunta tipo="opc" correcta="2" texto="Es una característica de Top:" txtCorrecta="" txtErronea="">
+            <opcion1 texto="Tiene grandes dientes" />
+            <opcion2 texto="Es el más veloz de su ciudad" />
+            <opcion3 texto="Se acobarda en los momentos importantes" />
+        </pregunta>
+        <pregunta tipo="opc" correcta="2" texto="Top vive en:" txtCorrecta="" txtErronea="">
+            <opcion1 texto="En las ramas de un árbol" />
+            <opcion2 texto="Ciudad TopoTop" />
+            <opcion3 texto="En lo alto de la montaña" />
+        </pregunta>
+        <pregunta tipo="opc" correcta="2" texto="¿Qué se disponía a comer Top cuando fue interrumpido?" txtCorrecta="" txtErronea="">
+            <opcion1 texto="Una lagartija" />
+            <opcion2 texto="La raíz de un rábano" />
+            <opcion3 texto="Un pastel de fresa" />
+        </pregunta>
+        <pregunta tipo="opc" correcta="2" texto="¿Quién venía persiguiendo a Top?" txtCorrecta="" txtErronea="">
+            <opcion1 texto="Otro topo" />
+            <opcion2 texto="Un tejón" />
+            <opcion3 texto="Muchos tejones" />
+        </pregunta>
+        <pregunta tipo="opc" correcta="3" texto="¿Qué hizo Top cuando se sintió acorralado?" txtCorrecta="" txtErronea="">
+            <opcion1 texto="Se defendió a golpes" />
+            <opcion2 texto="Se hizo el muertito para despistar" />
+            <opcion3 texto="Siguió cavando" />
+        </pregunta>
+        <pregunta tipo="opc" correcta="2" texto="¿Por qué no pudo el Señor Tejón ingresar a la madriguera que cavó Top?" txtCorrecta="" txtErronea="">
+            <opcion1 texto="Porque se sentía muy cansado" />
+            <opcion2 texto="Porque era muy pequeña la madriguera" />
+            <opcion3 texto="Porque sintió miedo" />
+        </pregunta>
+        <pregunta tipo="opc" correcta="2" texto="¿De qué trata el cuento?" txtCorrecta="" txtErronea="">
+            <opcion1 texto="De lo lento que son los tejones" />
+            <opcion2 texto="De cómo Top escapó del Señor Tejón" />
+            <opcion3 texto="De los alimentos preferidos de los topos" />
+        </pregunta>
+        <pregunta tipo="opc" correcta="1" texto="¿De qué no trata el texto?" txtCorrecta="" txtErronea="">
+            <opcion1 texto="De lo desesperados que son los tejones" />
+            <opcion2 texto="De la aventura de Top" />
+            <opcion3 texto="De cómo el Señor Tejón dejó escapar a Top" />
+        </pregunta>
+        <pregunta tipo="img" correcta="1" texto="¿Quién de ellos es más grande?" txtCorrecta="" txtErronea="">
+            <opcion1 path = "imagenes/tejon.png" texto="Imagen Tejón" />
+            <opcion2 path = "imagenes/top.png" texto="Imagen Topo" />
+            <opcion3 path = "imagenes/rabano.png" texto="Imagen Rábano" />
+        </pregunta>
+         
+    </preguntas>
+    <ajustes>
+        <pantalla2>
+            <texto><![CDATA[Lee con atención]]></texto>
+        </pantalla2>
+        <pantalla5>
+            <texto><![CDATA[¡Es momento de jugar!<br><font size="30">Contesta lo que se te pregunta utilizando la información que leíste en el cuento. Arrastra la respuesta hacia el recuadro.</font>]]></texto>
+            <texto texto="Por ejemplo." />
+            <texto texto="¿Cuál de los siguientes animales tiene cuatro patas?" />
+            <texto texto="Arrastra la imagen aquí" />
+        </pantalla5>
+        <pantallaFinal>
+            <texto personaje="1" pos="2" ><![CDATA[¡Lo han hecho muy bien!]]></texto>
+            <texto personaje="1" pos="2" ><![CDATA[¿Les gustó el texto de la revista?]]></texto>
+            <texto personaje="4" pos="1" ><![CDATA[¡Sí! Entonces…  ¿Todas las revistas hablan de topos?]]></texto>
+            <texto personaje="2" pos="2" ><![CDATA[¡Claro que no! Esa fue sólo una noticia.]]></texto>
+            <texto personaje="3" pos="2" ><![CDATA[En las revistas no sólo se habla de topos.]]></texto>
+            <texto personaje="1" pos="1" ><![CDATA[Así es, las revistas tratan muchos temas, algunos de interés general y otras de temas especializados. En las revistas podemos aprender muchísimo.]]></texto>
+        </pantallaFinal>
+    </ajustes>
+ 
+</book>

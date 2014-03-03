@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book> 
+	
+	<texto maximoTiempoEstrella="180" titulo="Planeta Miedo 2.0">
+		<parrafo animus="neutral">
+			<![CDATA[<font color="#CC4E27">Orión</font> recibió el llamado de auxilio de los habitantes del <font color="#CC4E27">Planeta Miedo 2.0</font>, estaban aterrados por recientes hechos misteriosos. <font color="#CC4E27">Orión</font> prometió ayudarles, así que habló con <font color="#CC4E27">Eurek</font>, el más hábil de <font color="#CC4E27">los Cibers</font>.<br><br>¡Debes viajar al <font color="#CC4E27">Planeta Miedo 2.0</font>! expresó el sabio <font color="#CC4E27">Orión</font>-.<br>Am… ¿A miedo… dónde?¿Existe ese lugar? –Contestó <font color="#CC4E27">Eurek</font> visiblemente preocupado-.<br><br><font color="#CC4E27">Zita</font> intervino de inmediato: ¡Yo voy <font color="#CC4E27">Orión</font>, yo acompaño a <font color="#CC4E27">Eurek</font>! <font color="#CC4E27">Orión</font> sonrió al ver el entusiasmo de la menor de <font color="#CC4E27">los Cibers</font>.<br><br>]]>
+		</parrafo>
+		<parrafo animus="neutral">
+			<![CDATA[Esta bien, vamos –murmuró <font color="#CC4E27">Eurek</font> mientras tragaba saliva-. <font color="#CC4E27">Orión</font> los acompañó a la nave y advirtió: Tengan cuidado, en ese planeta ocurren cosas extrañas, lo apodan el planeta de las sombras y los escalofríos. <font color="#CC4E27">Zita</font> y <font color="#CC4E27">Eurek</font> afirmaron con su pulgar hacia arriba y partieron en la nave.<br><br>Cuando aterrizaron, el planeta parecía estar abandonado. A lo lejos se veía una casa descuidada y oscura, <font color="#CC4E27">Zita</font> y <font color="#CC4E27">Eurek</font> entraron, sólo había objetos viejos y polvosos.]]>
+		</parrafo>
+		<parrafo animus="neutral">
+			<![CDATA[¿Hay alguien aquí? -gritó <font color="#CC4E27">Eurek</font>, pero nadie le contestó-. ¡Venimos a ayudarlos! –dijo <font color="#CC4E27">Zita</font> con tono amistoso-. Pero sólo escuchó el eco de su propia voz.<br><br>Después de explorar toda la casa y no encontrar a nadie, decidieron regresar a la nave. Cuando de pronto, escucharon un grito fuerte y agudo, similar al de alguien que se está quejando… ¡Aaayyyyy! ]]>
+		</parrafo>
+		<parrafo animus="neutral">
+			<![CDATA[Ambos voltearon. Una sombra pasaba por la ventana de la casa. <font color="#CC4E27">Eurek</font> sintió escalofríos. Con precaución se acercaron lentamente a la casa y cuando estaban por entrar ¡Plom! La puerta se azotó.<br><br>A <font color="#CC4E27">Eurek</font> le temblaban las piernas, pero trataba de disimularlo. <font color="#CC4E27">Zita</font> lo tomó de la mano y le dijo: entremos juntos. Eurek afirmó con la cabeza y lentamente entraron a la casa.]]>
+		</parrafo>
+		<parrafo animus="neutral">
+			<![CDATA[Cuando <font color="#CC4E27">Zita</font> abrió la puerta, la luz estaba prendida y los muebles flotando, de pronto apareció una sombra cubierta por una tela blanca brincando entre los muebles. Unas risas macabras empezaron a escucharse.<br><br><font color="#CC4E27">Zita</font> gritó “eso debe ser un fantasma, salgamos de aquí <font color="#CC4E27">Eurek</font> y no regresemos nunca” y azotó la puerta, pero no salieron, sólo se escondieron detrás de un sillón. El corazón de <font color="#CC4E27">Eurek</font> latía muy rápido... ¡Pum-pum! ¡Pum-pum! <font color="#CC4E27">Zita</font> estaba atenta observando a lo lejos, sabía que algo raro ocurría.]]>
+		</parrafo>
+		<parrafo animus="neutral">
+			<![CDATA[Dos habitantes del <font color="#CC4E27">Planeta Miedo 2.0</font> aparecieron, uno de ellos se quitó la tela blanca de encima y el otro soltó los hilos que sostenían los muebles haciendo parecer que flotaban. Entre ellos se miraron y les dio un ataque de risa. Estaban felices de haber engañado a alguien más. Pero <font color="#CC4E27">Zita</font> y <font color="#CC4E27">Eurek</font> seguían escondidos viéndolo todo.<br><br>Entonces <font color="#CC4E27">Zita</font> usó el micrófono modificador de voz integrado en su brazo y dijo con voz tenebrosa: “Ay mis hijos”. Los dos bromistas palidecieron de inmediato y echaron a correr.]]>
+		</parrafo>
+		<parrafo animus="neutral">
+			<![CDATA[<font color="#CC4E27">Eurek</font> los alcanzó y les advirtió: ¿Verdad que no es divertido cuando alguien te asusta?<br><br>Los dos bromistas aceptaron haberlo planeado todo, así que pidieron disculpas y prometieron no volver a asustar a nadie. A partir de ese día, el <font color="#CC4E27">Planeta Miedo 2.0</font> dejó de tener miedo. ¡<font color="#CC4E27">Los Cibers</font> habían cumplido con otra misión!<br><br><font color="#FF0000"><center><b>FIN</b></center></font>]]>
+		</parrafo>
+	</texto>
+	
+		<preguntas aleatorio="si" mostradas="5" minimoCorrectasEstrella="3"> <!-- shuffle="si/no" -->
+		<pregunta tipo="opc" correcta="1" texto="¿Por qué los habitantes del Planeta Miedo 2.0 querían la ayuda de Orión?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Porque estaban aterrados por los recientes hechos misteriosos." />
+			<opcion2 texto="Porque tenían pesadillas." />
+			<opcion3 texto="Para combatir un monstruo." />
+		</pregunta>
+		<pregunta tipo="opc" correcta="2" texto="¿Cuál fue la primera emoción de Eurek cuando Orión le propuso ir al Planeta Miedo 2.0?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Parecía estar emocionado." />
+			<opcion2 texto="Parecía tener miedo." />
+			<opcion3 texto="Estaba ansioso por ir a investigar." />
+		</pregunta>
+		<pregunta tipo="opc" correcta="3" texto="¿De qué forma apodaban al Planeta Miedo 2.0?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="El Planeta Miedo 2.0." />
+			<opcion2 texto="El Planeta de los escalofríos." />
+			<opcion3 texto="El Planeta de las sombras y escalofríos." />
+		</pregunta>
+		<pregunta tipo="opc" correcta="2" texto="¿Qué había en la casa abandonada del Planeta Miedo 2.0 la primera vez que entró Zita y Eurek?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Objetos limpios y modernos." />
+			<opcion2 texto="Objetos viejos y polvosos." />
+			<opcion3 texto="Muchas personas." />
+		</pregunta>
+		<pregunta tipo="opc" correcta="1" texto="¿Por qué Zita y Eurek regresaron a la casa abandonada cuando ya estaban a punto de subirse a su nave?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Porque escucharon un grito fuerte y agudo." />
+			<opcion2 texto="Porque escucharon el maullido de un gato." />
+			<opcion3 texto="Porque escucharon el ronquido de alguien." />
+		</pregunta>
+		<pregunta tipo="opc" correcta="2" texto="¿Qué sintió Eurek cuando miró una sombra al interior de la casa?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Sintió cosquillas en las orejas." />
+			<opcion2 texto="Sintió escalofríos." />
+			<opcion3 texto="Sintió ganas de estornudar." />
+		</pregunta>
+		<pregunta tipo="opc" correcta="1" texto="¿Cómo estaba la casa cuando entró Zita y Eurek por segunda vez?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="La luz estaba prendida y los muebles flotaban." />
+			<opcion2 texto="Igual de polvosa que la primera vez." />
+			<opcion3 texto="Había una gran fiesta." />
+		</pregunta>
+		<pregunta tipo="opc" correcta="1" texto="En realidad ¿Quién provocó los ruidos e hizo que los muebles de la casa flotaran?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Dos habitantes de Planeta Miedo 2.0 muy bromistas." />
+			<opcion2 texto="Un terrible fantasma." />
+			<opcion3 texto="Una sombra terrorífica." />
+		</pregunta>
+		<pregunta tipo="opc" correcta="2" texto="¿Por qué flotaban los muebles?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Por algún encanto fantasmagórico." />
+			<opcion2 texto="Porque alguien los sostenía de unos hilos." />
+			<opcion3 texto="Porque los hechizó el fantasma de la tela blanca." />
+		</pregunta>
+		<pregunta tipo="opc" correcta="2" texto="¿Para qué usó Zita su micrófono modificador de voz?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Para hablar con Orión." />
+			<opcion2 texto="Para cambiar su voz." />
+			<opcion3 texto="Para cantar una canción." />
+		</pregunta>
+		<pregunta tipo="opc" correcta="2" texto="¿Existió un fantasma en el Planeta Miedo 2.0?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Sí." />
+			<opcion2 texto="No, eran unos bromistas que querían espantar a los demás." />
+			<opcion3 texto="No, era Eurek que confundió lo que veía." />
+		</pregunta>
+	</preguntas>
+	
+	<preguntasParteDos aleatorio="si" mostradas="5" minimoCorrectasEstrella="3"> <!-- shuffle="si/no" -->
+		<pregunta tipo="opc" correcta="1" texto="¿Qué suelen generar los cuentos de misterio en la gente que los lee?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Miedo" />
+			<opcion2 texto="Risa" />
+			<opcion3 texto="Tristeza" />
+			<mensajeDespuesDeError texto= "Incorrecto: Los cuentos de misterio suelen generar miedo."/>
+		</pregunta>
+		<pregunta tipo="opc" correcta="2" texto="¿Qué tipo de personajes suele haber en la mayoría de los cuentos de misterio?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Niñas y niños" />
+			<opcion2 texto="Fantasmas o seres sobrenaturales" />
+			<opcion3 texto="Animales chistosos" />
+			<mensajeDespuesDeError texto= "Incorrecto: Es común encontrar fantasmas y seres sobrenaturales en cuentos de misterio."/>
+		</pregunta>
+		<pregunta tipo="opc" correcta="2" texto="¿A qué tipo de cuento se parece más la historia que acabas de leer?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Cuento de aventura" />
+			<opcion2 texto="Cuento de misterio" />
+			<opcion3 texto="Una fábula" />
+			<mensajeDespuesDeError texto= "Incorrecto: En los cuentos de misterio hay algún secreto que debe ser descubierto."/>
+		</pregunta>
+		<pregunta tipo="opc" correcta="1" texto="¿En dónde se desarrollan las historias de los cuentos de misterio o terror?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="En lugares solitarios, misteriosos y con poca luz." />
+			<opcion2 texto="En lugares iluminados y con mucha gente." />
+			<opcion3 texto="Debajo del mar." />
+			<mensajeDespuesDeError texto= "Incorrecto: Las historias de los cuentos de misterio suelen ser en espacios solitarios y misteriosos."/>
+		</pregunta>
+		<pregunta tipo="opc" correcta="2" texto="¿Cuál es principal misterio de esta historia?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="El origen de los Cibers." />
+			<opcion2 texto="Saber quién atemoriza a los habitantes del Planeta Miedo 2.0" />
+			<opcion3 texto="Por qué le temblaban las piernas a Eurek." />
+			<mensajeDespuesDeError texto= "Incorrecto: Un misterio es algo que se desconoce y que afecta a los personajes de la historia."/>
+		</pregunta>
+		<pregunta tipo="opc" correcta="1" texto="¿Por qué estaban aterrados los habitantes del Planeta Miedo 2.0?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Porque ocurrían hechos misteriosos." />
+			<opcion2 texto="Porque no sabían quién era Eurek." />
+			<opcion3 texto="Porque tenían pesadillas." />
+			<mensajeDespuesDeError texto= "Incorrecto: Los habitantes sentían miedo por las cosas que pasaban."/>
+		</pregunta>
+		<pregunta tipo="opc" correcta="3" texto="¿Qué hizo Zita para no tener miedo?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Se escondió detrás de Eurek." />
+			<opcion2 texto="Se tapó los ojos." />
+			<opcion3 texto="Enfrentó los hechos misteriosos." />
+			<mensajeDespuesDeError texto= "Incorrecto: Zita siempre estuvo segura de poder resolver el reto."/>
+		</pregunta>
+		<pregunta tipo="opc" correcta="3" texto="¿Cuál de las siguientes frases describe este cuento de misterio?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Los personajes se acobardan ante un hecho extraño." />
+			<opcion2 texto="Un personaje es tan torpe que le ocurren cosas chistosas." />
+			<opcion3 texto="Ocurre un hecho extraño que los personajes resuelven." />
+			<mensajeDespuesDeError texto= "Incorrecto: En un cuento de misterio un personaje trata de resolver una situación escalofriante a pesar de que sienta mucho miedo."/>
+		</pregunta>
+	</preguntasParteDos>
+	
+	
+	<ajustes>
+		<pantalla2>
+			<texto><![CDATA[Lee con atención]]></texto>
+		</pantalla2>
+		<pantalla5>
+			<texto><![CDATA[¡Es momento de jugar!<br><font size="30">Contesta lo que se te pregunta utilizando la información que leíste en el cuento. Arrastra la respuesta hacia el recuadro.</font>]]></texto>
+			<texto texto="Por ejemplo." />
+			<texto texto="¿Cuál de los siguientes animales tiene cuatro patas?" />
+			<texto texto="Arrastra la imagen aquí" />
+		</pantalla5>
+		<pantallaFinal>
+			<texto personaje="1" pos="2" ><![CDATA[¿Qué piensan de las historias de misterio?]]></texto>
+			<texto personaje="4" pos="1" ><![CDATA[¿Misterio? ¿Quién es Misterio? ¡Nadie me la presentó!]]></texto>
+			<texto personaje="2" pos="2" ><![CDATA[¡No! Misterio no es una persona, es un tipo de cuento.]]></texto>
+			<texto personaje="3" pos="2" ><![CDATA[Sí, son historias en donde ocurre algo inexplicable.]]></texto>
+			<texto personaje="1" pos="1" ><![CDATA[Sí, y los personajes deben resolver el misterio.]]></texto>
+			<texto personaje="1" pos="1" ><![CDATA[El género gusta mucho a los niños pues son historias que atrapan fácilmente.]]></texto>
+		</pantallaFinal>
+	</ajustes>
+</book>

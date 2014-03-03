@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book> 
+	
+	<texto maximoTiempoEstrella="180" titulo="La aventura del Hombre Bala">
+		<parrafo animus="neutral">
+			<![CDATA[Como todas las tardes en el Circo, el <font color="#CC4E27">Hombre Bala</font> se disponía a ingresar en el enorme cañón para ser lanzado por los aires.<br><br>Esa tarde no se encontraba la Asistente, por lo que el <font color="#CC4E27">Hombre Bala</font> pidió ayuda a <font color="#CC4E27">Justino Fortacho</font>, para que fuera él quien prendiera el cañón. Justino cargó los dos costales de pólvora necesarios para hacer volar al <font color="#CC4E27">Hombre Bala</font> y los puso dentro del cañón.<br>Al hacerlo, se dio cuenta de lo grandes que eran sus músculos y metió otros dos.]]>
+		</parrafo>
+		<parrafo animus="neutral">
+			<![CDATA[A <font color="#CC4E27">Justino</font> le emocionó notar que aún le quedaba fuerza para meter un par de costales más, así que lo hizo. En total metió seis costales de pólvora al cañón y no dos como se lo habían pedido.<br>El <font color="#CC4E27">Hombre Bala</font> saludó a su público mientras <font color="#CC4E27">Justino</font> acomodaba el cañón y sonreía a los asistentes, estaba orgulloso de ser tan fuerte como para haber colocado más pólvora de la necesaria. El <font color="#CC4E27">Hombre Bala</font> se puso el casco y <font color="#CC4E27">Justino</font> encendió el cañón con un fósforo.<br>Se escucharon fuertes explosiones ¡Plum! ¡Plom! ¡Plum!]]>
+		</parrafo>
+		<parrafo animus="neutral">
+			<![CDATA[Y el <font color="#CC4E27">Hombre Bala</font> salió disparado con más rapidez que de costumbre. Para sorpresa de todos, voló tan, pero tan alto, que rompió la lona del circo y salió sin rumbo fijo.<br><br>El <font color="#CC4E27">Hombre Bala</font> estaba desconcertado, volaba tan alto que podía ver el planeta Tierra desde el aire.<br><br>Lo primero que identificó fue un desierto, en el paisaje predominaba el color café de la arena, había poca agua y las pocas plantas que se alcanzaban a ver eran palmeras y cactus. ]]>
+		</parrafo>
+		<parrafo animus="neutral">
+			<![CDATA[Le llamó la atención un par de animales extraños, entonces notó que se trataba de un zorro del desierto que tomaba el sol junto a un camello.<br><br>El <font color="#CC4E27">Hombre Bala</font> estaba maravillado con todo lo que había en un desierto, pero empezó a preocuparle que seguía volando a gran velocidad. ¿De qué forma lograría bajar a tierra firme?  El <font color="#CC4E27">Hombre Bala</font> se percató de que el paisaje había cambiado, ahora todo se veía verde, había grandes árboles por todas partes. Una fuerte lluvia empezó a nublarle su visión, había llegado a una selva tropical.]]>
+		</parrafo>
+		<parrafo animus="neutral">
+			<![CDATA[En este tipo de ecosistemas llueve la mayor parte del año, lo que permite la existencia de altos árboles y de muchos insectos. Los mosquitos y las hormigas ejército son muy comunes en este lugar. El <font color="#CC4E27">Hombre Bala</font> alcanzó a ver algunos mamíferos, como unos murciélagos comiendo frutas y a un mono araña brincando entre los árboles, todo era increíble.<br>De pronto, el <font color="#CC4E27">Hombre Bala</font> empezó a perder velocidad, al parecer empezaba a caer hacia la nada. Afortunadamente, alcanzó a ver un río, donde podría ser menos dolorosa su caída. ]]>
+		</parrafo>
+		<parrafo animus="neutral">
+			<![CDATA[Así que movió sus pequeños brazos tratando aletear y caer dentro del agua, pero no logró acercarse mucho. Mejor se tapó los ojos y… ¡Track!  El <font color="#CC4E27">Hombre Bala</font> cayó en un montón de ramas de árboles, llevándose un fuerte golpe en la cabeza ¡Auch!<br><br>El <font color="#CC4E27">Hombre Bala</font> regresó al Circo con el casco ligeramente abollado. <font color="#CC4E27">Justino</font> muy apenado le ofreció una disculpa, pero el <font color="#CC4E27">Hombre Bala</font> lo interrumpió para contarle la emocionante aventura que acababa de vivir.<br><br><font color="#FF0000"><center><b>FIN</b></center></font>]]>
+		</parrafo>
+	</texto>
+	
+	<preguntas aleatorio="si" mostradas="5" minimoCorrectasEstrella="3"> <!-- shuffle="si/no" -->
+		<pregunta tipo="opc" correcta="1" texto="¿Quién es el protagonista de la historia?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="El Hombre Bala" />
+			<opcion2 texto="Justino Fortacho" />
+			<opcion3 texto="El Circo" />
+		</pregunta>
+		<pregunta tipo="opc" correcta="1" texto="¿En dónde inicia la historia?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="En el Circo" />
+			<opcion2 texto="En la selva tropical" />
+			<opcion3 texto="En el desierto" />
+		</pregunta>
+		<pregunta tipo="opc" correcta="2" texto="¿Qué hace el Hombre Bala en el Circo?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Duerme en el cañón" />
+			<opcion2 texto="Es arrojado por el cañón" />
+			<opcion3 texto="Limpia el cañón" />
+		</pregunta>
+		<pregunta tipo="opc" correcta="3" texto="¿Quién fue el encargado de colocar la pólvora en el cañón en esta ocasión?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="El Hombre Bala" />
+			<opcion2 texto="La Asistente" />
+			<opcion3 texto="Justino Fortacho" />
+		</pregunta>
+		<pregunta tipo="opc" correcta="1" texto="¿Cuál es la cantidad exacta de pólvora que hay que colocar en el cañón para que funcione?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Dos costales" />
+			<opcion2 texto="Cuatro costales" />
+			<opcion3 texto="Seis costales" />
+		</pregunta>
+		<pregunta tipo="opc" correcta="2" texto="¿Qué hizo el Hombre Bala antes de que encendieran el cañón?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Agradeció a Justino Fortacho" />
+			<opcion2 texto="Se puso su casco" />
+			<opcion3 texto="Tomó un fósforo" />
+		</pregunta>
+		<pregunta tipo="opc" correcta="1" texto="¿Por qué salió el Hombre Bala con más fuerza de la normal?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Porque colocaron en el cañón más pólvora de la necesaria" />
+			<opcion2 texto="Porque colocaron en el cañón menos pólvora de la necesaria" />
+			<opcion3 texto="Porque el cielo estaba despejado" />
+		</pregunta>
+		<pregunta tipo="opc" correcta="1" texto="¿De qué color era el paisaje en el desierto?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Café" />
+			<opcion2 texto="Verde" />
+			<opcion3 texto="Rojo" />
+		</pregunta>
+		<pregunta tipo="opc" correcta="2" texto="¿De qué color era el paisaje en la selva tropical?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Café" />
+			<opcion2 texto="Verde" />
+			<opcion3 texto="Rojo" />
+		</pregunta>
+		<pregunta tipo="opc" correcta="2" texto="¿En dónde cayó el Hombre Bala?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="En el desierto" />
+			<opcion2 texto="En un montón de ramas de árboles" />
+			<opcion3 texto="En el río" />
+		</pregunta>
+		<pregunta tipo="opc" correcta="2" texto="¿Por qué ofreció Justino una disculpa? " txtCorrecta="" txtErronea="">
+			<opcion1 texto="Por no haber acompañado al Hombre Bala en su aventura" />
+			<opcion2 texto="Por haber puesto más pólvora de lo normal en el cañón" />
+			<opcion3 texto="Por haber dañado su casco" />
+		</pregunta>
+	</preguntas>
+	
+	<organigrama>
+		<cuadro1>
+			<textos>
+				<texto texto="Según la aventura del Hombre Bala..." />
+				<texto texto="¿En qué categorías puedes clasificar lo que hay en el desierto?" />
+				<texto texto="Arrastra los recuadros que correspondan a categorías correctas." />
+				<texto texto="Por ejemplo." />
+			</textos>
+			<miniCuadro>
+				<texto texto="Animal" />
+				<texto texto="Gato" />
+				<texto texto="balón" />
+				<texto texto="Perro" />
+			</miniCuadro>
+			<opciones>
+				<opcion texto="Desierto" />
+				<opcion texto="Tipo de juguetes" />	<!--0-->
+				<opcion texto="Clima" />
+				<opcion texto="Flora (Plantas)" />
+				<opcion texto="Fauna (Animales)" />
+				<opcion texto="Cañon del circo" />
+				<opcion texto="Hombre Bala" />
+			</opciones>
+		</cuadro1>
+		<cuadro2>
+			<textos>
+				<texto texto="Clasifica los recuadros en la categoría que les corresponde..." />
+				<texto texto="Según lo que vio el Hombre Bala en el desierto." />
+			</textos>
+			<opciones>
+				<opcion texto="Desierto" />
+				<opcion texto="Clima" />
+				<opcion texto="Flora (Plantas)" />
+				<opcion texto="Fauna (Animales)" />
+				
+				<opcion texto="Palmeras" />
+				<opcion texto="Calor" />
+				<opcion texto="Camellos" />
+				<opcion texto="Zorro del desierto" />
+				<opcion texto="Cactus" />
+				<opcion texto="Lluvia" />
+			</opciones>
+		</cuadro2>
+		<cuadro3>
+			<textos>
+				<texto texto="Según la aventura del Hombre Bala..." />
+				<texto texto="¿En qué categorías puedes clasificar lo que hay en la selva tropical?" />
+				<texto texto="Arrastra los recuadros que correspondan a categorías correctas." />
+				<texto texto="Por ejemplo." />
+			</textos>
+			<miniCuadro>
+				<texto texto="Cosas" />
+				<texto texto="Gato" />
+				<texto texto="balón" />
+				<texto texto="botella" />
+			</miniCuadro>
+			<opciones>
+				<opcion texto="Selva tropical" />
+				<opcion texto="Clima" />
+				<opcion texto="Fauna (Animales)" />
+				<opcion texto="Planetas" />
+				<opcion texto="Juguetes" />
+				<opcion texto="Flora (Plantas)" />
+			</opciones>
+		</cuadro3>
+		<cuadro4>
+			<textos>
+				<texto texto="Clasifica los recuadros en la categoría que les corresponde..." />
+				<texto texto="Según lo que vio el Hombre Bala en la selva tropical" />
+				<!--<texto texto="Arrastra los recuadros que correspondan a categorías correctas." />-->
+			</textos>
+			<opciones>
+				<opcion texto="Selva tropical" />
+				<opcion texto="Clima" />
+				<opcion texto="Flora (Plantas)" />
+				<opcion texto="Fauna (Animales)" />
+				
+				<opcion texto="Lluvioso" />
+				<opcion texto="Altos árboles" />
+				<opcion texto="Insectos" />
+				<opcion texto="Mamíferos" />
+				<opcion texto="Frío" />
+				<opcion texto="Cactáceas" />
+				<opcion texto="Aves" />
+			</opciones>
+		</cuadro4>
+		<cuadro5>
+			<textos>
+				<texto texto="Clasifica los recuadros en la categoría que les corresponde..." />
+				<texto texto="Según lo que vio el Hombre Bala en la selva tropical" />
+				<!--<texto texto="Arrastra los recuadros que correspondan a categorías correctas." />-->
+			</textos>
+			<opciones>
+				<opcion texto="Selva tropical" />
+				<opcion texto="Clima" />
+				<opcion texto="Flora (Plantas)" />
+				<opcion texto="Lluvioso" />
+				<opcion texto="Altos árboles" />
+				<opcion texto="Fauna (Animales)" />
+				<opcion texto="Insectos" />
+				<opcion texto="Mamíferos" />
+				
+				<opcion texto="Mosquitos" />
+				<opcion texto="Murciélagos" />
+				<opcion texto="Hormigas Ejército" />
+				<opcion texto="Mono araña" />
+				<opcion texto="Camello" />
+				<opcion texto="Canguro" />
+				<opcion texto="Lluvia" />
+			</opciones>
+		</cuadro5>
+	</organigrama>
+	
+	<ajustes>
+		<pantalla1>
+			<texto texto="ejemplo" />
+		</pantalla1>
+		<pantalla2>
+		</pantalla2>
+		<pantalla3>
+		</pantalla3>
+		<pantalla4>
+		</pantalla4>
+		<pantalla5>
+			<texto><![CDATA[¡Es momento de jugar!<br><font size="30">Contesta lo que se te pregunta utilizando la información que leíste en el cuento. Arrastra la respuesta hacia el recuadro.</font>]]></texto>
+			<texto texto="Por ejemplo." />
+			<texto texto="¿Cuál de los siguientes animales tiene cuatro patas?" />
+			<texto texto="Arrastra la imagen aquí" />
+		</pantalla5>
+		<pantalla6>
+		</pantalla6>
+		<pantalla7>
+		</pantalla7>
+		<pantalla8>
+		</pantalla8>
+		<pantalla9>
+		</pantalla9>
+		<pantallaFinalDesierto>
+			<texto texto="¡Muy bien! Formaste un mapa conceptual." />
+		</pantallaFinalDesierto>
+		<pantallaFinalSelva>
+			<texto texto="¡Muy bien! Formaste un mapa conceptual." />
+		</pantallaFinalSelva>
+		<pantallaFinal>
+			<texto personaje="1" pos="2" ><![CDATA[¡Muy bien!<br>Acaban de resolver un mapa conceptual.]]></texto>
+			<texto personaje="1" pos="1" ><![CDATA[¿Qué saben de los mapas conceptuales?]]></texto>
+			<texto personaje="4" pos="1" ><![CDATA[¡Que saben a cebolla!]]></texto>
+			<texto personaje="2" pos="2" ><![CDATA[¡No! Un mapa conceptual es una forma de clasificar información.]]></texto>
+			<texto personaje="3" pos="2" ><![CDATA[¡Sí! Nos ayudan a ordenar la información de forma visual.]]></texto>
+			<texto personaje="1" pos="1" ><![CDATA[Así es, un mapa conceptual no es un alimento raro.]]></texto>
+			<texto personaje="1" pos="1" ><![CDATA[Los mapas conceptuales representan conceptos mediante palabras clave.]]></texto>
+		</pantallaFinal>
+	</ajustes>
+
+</book>

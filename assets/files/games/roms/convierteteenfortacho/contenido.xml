@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book> 
+	
+	<texto maximoTiempoEstrella="180" titulo="¡Conviértete en Fortacho!">
+		<parrafo animus="neutral">
+			<![CDATA[<font color="#CC4E27">Pepe Fornido</font>, el leñador más fuerte del pueblo, tenía un sueño: convertirse algún día en el hombre más fuerte del mundo. De niño visitó el circo un par de veces, ahí conoció a los <font color="#CC4E27">Hermanos Fortacho</font>, cuatro hombres fuertes capaces de levantar un barco. <font color="#CC4E27">Pepe</font> quedó sorprendido y ese día decidió no descansar hasta ser tan fuerte como ellos.<br><br>Unos años después, mientras <font color="#CC4E27">Pepe</font> regresaba del bosque, observó una colorida carreta que se aproximaba, anunciaba por una bocina que el Circo estaba en el pueblo. <font color="#CC4E27">Pepe</font> se emocionó. Se acercó a la carreta y fue entonces que recibió la mejor noticia de su vida: estaban buscando a un hombre fuerte, porque uno de los <font color="#CC4E27">Hermanos Fortacho</font> se había retirado.]]>
+		</parrafo>
+		<parrafo animus="neutral">
+			<![CDATA[<font color="#CC4E27">Pepe Fornido</font> no quiso desaprovechar la gran oportunidad, y en ese mismo momento, se dirigió al circo para hacer el examen que le permitiría convertirse en el nuevo <font color="#CC4E27">Fortacho</font>.<br><br><font color="#CC4E27">Pepe Fornido</font> llegó al centro de la pista del circo para hacer su audición. Ya lo esperaban <font color="#CC4E27">Juan</font>, <font color="#CC4E27">Justino</font> y <font color="#CC4E27">Rocke Fortacho</font>, los famosos hermanos que lo habían inspirado desde que era un niño. <font color="#CC4E27">Rocke</font>, con su voz ronca gritó, -hey debilucho, si quieres ser un <font color="#CC4E27">fortacho</font> tendrás que doblar ese tubo…-, aún no terminaba de hablar <font color="#CC4E27">Rocke</font>, cuando <font color="#CC4E27">Pepe</font> ya había doblado el tubo en forma de moño. <font color="#CC4E27">Rocke</font> agregó –pero con los dientes-. <font color="#CC4E27">Pepe</font> tomó un respiro y se dispuso a doblar otro tubo usando sólo los dientes. Después de un par de minutos ¡<font color="#CC4E27">Pepe</font> lo había logrado!]]>
+		</parrafo>
+		<parrafo animus="neutral">
+			<![CDATA[<font color="#CC4E27">Rocke</font> vio un poco de talento en <font color="#CC4E27">Pepe</font>, así que habló con sus hermanos y determinaron pasarlo a la siguiente etapa. Entonces salió de la parte trasera de la carpa un carrito tripulado por el <font color="#CC4E27">Domador</font>, la <font color="#CC4E27">Asistente</font>, el <font color="#CC4E27">Técnico</font>, el <font color="#CC4E27">Vendedor de palomitas</font> y el <font color="#CC4E27">Hombre Bala</font>.<br><br><font color="#CC4E27">Pepe</font> se tronó el cuello y dijo: ¡Estoy listo para jalar ese carro lleno de personas! A lo que <font color="#CC4E27">Justino Fortacho</font> agregó: ¿Con los cabellos? <font color="#CC4E27">Pepe</font> estaba en aprietos, nunca había cargado algo con el pelo, pero tenía que lograrlo si es que aspiraba a ser parte de los hombres más fuertes del mundo.]]>
+		</parrafo>
+		<parrafo animus="neutral">
+			<![CDATA[¡<font color="#CC4E27">Pepe</font> jaló el carrito al menos diez metros usando únicamente el cabello! <font color="#CC4E27">Los Fortacho</font> aplaudieron incrédulos, pero aún faltaba una prueba más. <font color="#CC4E27">Pepe</font> sonrió, estaba muy cerca de cumplir con el sueño de toda su vida.<br><br>Un tractor puso al centro de la pista una gran pesa, hecha con una barra de acero y un asiento en cada extremo. A un costado había una pluma de ave gigante. <font color="#CC4E27">Pepe</font> estaba aterrado, no sabía de qué trataría el reto final.<br><br>Dos de los hermanos se sentaron en cada uno de los extremos de la pesa, el otro hermano tomó la gran pluma. Le pidieron a <font color="#CC4E27">Pepe</font> que cargara la pesa con los dos <font color="#CC4E27">Fortacho</font> encima. ]]>
+		</parrafo>
+		<parrafo animus="neutral">
+			<![CDATA[<font color="#CC4E27">Pepe</font> aceptó, tomó la barra y con mucho trabajo empezó a levantarla. Cada centímetro que subía era doloroso. Sus brazos comenzaron a temblar. Y cuando por fin tenía la barra en todo lo alto, el otro hermano tomó la pluma para hacerle cosquillas al joven leñador.<br><br><font color="#CC4E27">Pepe</font>, ya fatigado, cerró los ojos para aguantar la risa e infló los cachetes para soportar el peso. Entonces los hermanos empezaron lentamente la cuenta regresiva: cinco, cuatro, tres, dos… uno… ¡Cero! <font color="#CC4E27">Pepe</font> arrojó la barra, los <font color="#CC4E27">Fortacho</font> volaron a muchos metros de distancia. ¡<font color="#CC4E27">Pepe</font> lo había logrado!]]>
+		</parrafo>
+		<parrafo animus="neutral">
+			<![CDATA[Ese día, <font color="#CC4E27">Pepe Fornido</font> cambió su nombre a <font color="#CC4E27">Pepe Fortacho</font>, formando parte del grupo de los hombres más fuertes del mundo.<br><br><font color="#FF0000"><center><b>FIN</b></center></font>]]>
+		</parrafo>
+	</texto>
+	
+	<preguntas aleatorio="si" mostradas="1" minimoCorrectasEstrella="3"> <!-- shuffle="si/no" -->
+		<pregunta tipo="opc" correcta="1" texto="¿Quién es el protagonista de la historia?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Pepe" />
+			<opcion2 texto="Los Hermanos Fortacho" />
+			<opcion3 texto="El Domador, la Asistente y el Hombre Bala." />
+		</pregunta>
+		<pregunta tipo="opc" correcta="2" texto="¿A qué se dedicaba Pepe al principio?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Siempre ha trabajado en un Circo" />
+			<opcion2 texto="Era leñador" />
+			<opcion3 texto="Asistía frecuentemente al circo" />
+		</pregunta>
+		<pregunta tipo="opc" correcta="2" texto="¿Cuándo conoció Pepe a los Hermanos Fortacho?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="En la audición" />
+			<opcion2 texto="Cuando de niño visitó el circo" />
+			<opcion3 texto="En la televisión" />
+		</pregunta>
+		<pregunta tipo="opc" correcta="3" texto="¿Cuál era el sueño de Pepe?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Conocer a los Hermanos Fortacho" />
+			<opcion2 texto="Que el circo regresara al pueblo" />
+			<opcion3 texto="Ser tan fuerte como los Hermanos Fortacho" />
+		</pregunta>
+		<pregunta tipo="opc" correcta="1" texto="¿Por qué se estaba buscando a un nuevo Hermano Fortacho?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Porque uno de ellos se retiró" />
+			<opcion2 texto="Porque uno de ellos saldría de vacaciones" />
+			<opcion3 texto="Para un nuevo acto" />
+		</pregunta>
+		<pregunta tipo="opc" correcta="2" texto="¿Cuál fue el primer reto que le pusieron a Pepe?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Doblar un tubo" />
+			<opcion2 texto="Doblar un tubo con los dientes" />
+			<opcion3 texto="Comerse un tubo en forma de moño" />
+		</pregunta>
+		<pregunta tipo="opc" correcta="1" texto="¿Quién de los siguientes personajes no apareció en el carrito que debía jalar Pepe?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="El Payaso" />
+			<opcion2 texto="La Asistente" />
+			<opcion3 texto="El Domador" />
+		</pregunta>
+		<pregunta tipo="opc" correcta="1" texto="¿Cuántos metros jaló Pepe al carrito con personas?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="Diez metros" />
+			<opcion2 texto="Diez pasos" />
+			<opcion3 texto="Diez brincos" />
+		</pregunta>
+		<pregunta tipo="opc" correcta="2" texto="¿De qué material era la pesa que cargó Pepe?" txtCorrecta="" txtErronea="">
+			<opcion1 texto="De madera" />
+			<opcion2 texto="De acero" />
+			<opcion3 texto="De plumas de ave" />
+		</pregunta>
+		<pregunta tipo="opc" correcta="2" texto="¿Por qué Pepe infló los cachetes al levantar la pesa? " txtCorrecta="" txtErronea="">
+			<opcion1 texto="Para distraer a los Hermanos Fortacho" />
+			<opcion2 texto="Para soportar el peso" />
+			<opcion3 texto="Para festejar su victoria" />
+		</pregunta>
+	</preguntas>
+	
+	<guionRadio txtTitulo="Guión de radio" txtArrastra="Arrastra hasta aquí la opción correcta" >
+		<dialogo correcta="2" >
+			<opcion><![CDATA[<b>EFECTO DE AUDIO DE MOTOR DE AVIÓN</b>]]></opcion>
+			<opcion><![CDATA[<b>MÚSICA DE INICIO DE NOTICIARIO</b>]]></opcion>
+			<opcion><![CDATA[<b>MÚSICA DE FIN DE NOTICIARIO</b>]]></opcion>
+			<toolTip><![CDATA[Los programas de radio suelen llevar música al inicio y al final que los identifica.]]></toolTip>
+		</dialogo>
+		<dialogo><![CDATA[<b>VOZ DE LOCUTOR DE RADIO:</b> Bienvenidos a su programa de radio preferido: Las noticias del Circo. Hoy tenemos de invitado a Pepe Fortacho. Buenos días Pepe ¿Cómo estás?]]></dialogo>
+		<dialogo correcta="1" >
+			<opcion><![CDATA[<b>VOZ DE PEPE FORTACHO</b>: ¡Muy bien! Contento de ser el nuevo Hermano Fortacho.]]></opcion>
+			<opcion><![CDATA[<b>VOZ DE PEPE FORTACHO</b>: ¡Muy molesto! No gané el concurso para ser un nuevo fortacho.]]></opcion>
+			<opcion><![CDATA[<b>VOZ DE PEPE FORTACHO</b>: Bien, hice un gran esfuerzo para lograr ser un Hermano Fortacho, aunque al final no lo logré.]]></opcion>
+			<toolTip><![CDATA[Cada diálogo inicia con la persona que está hablando, poniendo su nombre en letras mayúsculas.]]></toolTip>
+		</dialogo>
+		<dialogo><![CDATA[<b>VOZ DE LOCUTOR</b>: Pero cuéntanos ¿Cómo fue la prueba final?]]></dialogo>
+		<dialogo><![CDATA[<b>VOZ DE PEPE FORTACHO</b>: Primero escuché un tractor que llegó al circo.]]></dialogo>
+		<dialogo correcta="1" >
+			<opcion><![CDATA[<b>EFECTO  DE TRACTOR</b>]]></opcion>
+			<opcion><![CDATA[<b>EFECTO DE AVIÓN</b>]]></opcion>
+			<opcion><![CDATA[<b>EFECTO DE CLAXÓN</b>]]></opcion>
+			<toolTip><![CDATA[Los efectos de audio son grabaciones de sonidos de la vida cotidiana como el ladrido de un perro.]]></toolTip>
+		</dialogo>
+		<dialogo><![CDATA[<b>VOZ DE PEPE FORTACHO</b>: Cuando el tractor estaba al centro de la pista, colocó una pesa gigante en el piso.]]></dialogo>
+		<dialogo correcta="2" >
+			<opcion><![CDATA[<b>EFECTO  DE CHICHARRA</b>]]></opcion>
+			<opcion><![CDATA[<b>EFECTO DE GOLPE DE METAL CON ECO</b>]]></opcion>
+			<opcion><![CDATA[<b>EFECTO DE GUITARRA ELÉCTRICA</b>]]></opcion>
+			<toolTip><![CDATA[Los efectos de audio ayudan a los radioescuchas a imaginarse lo que está pasando en el programa de radio.]]></toolTip>
+		</dialogo>
+		<dialogo><![CDATA[<b>VOZ DE PEPE FORTACHO</b>: ¡Dos hombres fuertes se subieron en la pesa y me pidieron que la cargara con ellos encima!]]></dialogo>
+		<dialogo><![CDATA[(EFECTO DE REDOBLE DE BATERÍA)]]></dialogo>
+		<dialogo><![CDATA[ <b>VOZ DE LOCUTOR</b>: ¡Por favor, continua!]]></dialogo>
+		<dialogo correcta="3" >
+			<opcion><![CDATA[<b>VOZ DE PEPE FORTACHO</b>: No quise ni siquiera intentarlo, era inútil.]]></opcion>
+			<opcion><![CDATA[<b>VOZ DE PEPE FORTACHO</b>: intenté cargarla pero al darme cuenta de que pesaba mucho decidí no intentarlo de nuevo.  ]]></opcion>
+			<opcion><![CDATA[<b>VOZ DE PEPE FORTACHO</b>: Intenté cargarla. Era demasiado peso, pero poco a poco la fui levantando.]]></opcion>
+			<toolTip><![CDATA[Recuerda seleccionar la opción que sea similar a lo que leíste en el cuento de Conviértete en Fortacho.]]></toolTip>
+		</dialogo>
+		<dialogo><![CDATA[(EFECTO DE ESFUERZO)]]></dialogo>
+		<dialogo><![CDATA[<b>VOZ DE PEPE FORTACHO</b>: Hasta que… ¡La levanté hasta arriba!]]></dialogo>
+		<dialogo><![CDATA[(EFECTO DE APLAUSOS)]]></dialogo>
+		<dialogo correcta="1" >
+			<opcion><![CDATA[<b>VOZ DE PEPE FORTACHO</b>: ¡Pero eso no era todo, el otro de los hermanos empezó a hacerme cosquillas con una pluma gigante!]]></opcion>
+			<opcion><![CDATA[<b>VOZ DE PEPE FORTACHO</b>: ¡Pero eso no era todo, el otro de los hermano me obligó a pararme sobre un pie!]]></opcion>
+			<opcion><![CDATA[<b>VOZ DE PEPE FORTACHO</b>: ¡Pero eso no era todo, ahora debía bailar ballet!.]]></opcion>
+			<toolTip><![CDATA[Recuerda seleccionar la opción que sea similar a lo que leíste en el cuento de Conviértete en Fortacho.]]></toolTip>
+		</dialogo>
+		<dialogo><![CDATA[(EFECTO DE RISA DE FORTACHO)]]></dialogo>
+		<dialogo correcta="1" >
+			<opcion><![CDATA[<b>VOZ DE PEPE FORTACHO</b>: Me costaba trabajo resistir, pero pasaron los 5 segundos reglamentarios.]]></opcion>
+			<opcion><![CDATA[<b>VOZ DE PEPE FORTACHO</b>: ¡Pero eso no era todo, el otro de los hermano me obligó a pararme sobre un pie!]]></opcion>
+			<opcion><![CDATA[<b>VOZ DE PEPE FORTACHO</b>: ¡Pero eso no era todo, ahora debía bailar ballet!]]></opcion>
+			<toolTip><![CDATA[Recuerda seleccionar la opción que sea similar a lo que leíste en el cuento de Conviértete en Fortacho.]]></toolTip>
+		</dialogo>
+		<dialogo><![CDATA[(EFECTO DE ALARMA)]]></dialogo>
+		<dialogo><![CDATA[<b>VOZ DE PEPE FORTACHO</b>: ¡Uff, había pasado la prueba, así que arrojé la pesa con todo y los hermanos Fortacho encima!]]></dialogo>
+		<dialogo correcta="1" >
+			<opcion><![CDATA[<b>EFECTO DE GOLPE DE  PESA CAYENDO</b>.]]></opcion>
+			<opcion><![CDATA[<b>EFECTO DE CAMPANA SONANDO</b>.]]></opcion>
+			<opcion><![CDATA[<b>EFECTO DE MOTOR DE COCHE</b>.]]></opcion>
+			<toolTip><![CDATA[Recuerda los efectos de audio deben ser coherentes con lo que se está contando en el programa de radio.]]></toolTip>
+		</dialogo>
+		<dialogo><![CDATA[<b>VOZ DE LOCUTOR DE RADIO</b>: ¡Increíble la historia de Pepe Fortacho! Le agradecemos el que haya estado con nosotros ¡Nos escuchamos en el próximo programa de noticias del circo!]]></dialogo>
+		<dialogo correcta="1" >
+			<opcion><![CDATA[MÚSICA DE FIN DE PROGRAMA]]></opcion>
+			<opcion><![CDATA[MÚSICA DE INCIO DE PROGRAMA]]></opcion>
+			<opcion><![CDATA[MÚSICA DE SUSPENSO.]]></opcion>
+			<toolTip><![CDATA[Los programas de radio suelen llevar música al inicio y al final que los identifica.]]></toolTip>
+		</dialogo>
+			
+	</guionRadio>
+	
+	<ajustes>
+		<pantalla2>
+			<texto><![CDATA[Lee con atención]]></texto>
+		</pantalla2>
+		<pantalla5>
+			<texto><![CDATA[¡Es momento de jugar!<br><font size="30">Contesta lo que se te pregunta utilizando la información que leíste en el cuento. Arrastra la respuesta hacia el recuadro.</font>]]></texto>
+			<texto texto="Por ejemplo." />
+			<texto texto="¿Cuál de los siguientes animales tiene cuatro patas?" />
+			<texto texto="Arrastra la imagen aquí" />
+		</pantalla5>
+		<pantallaAcabaGuion>
+			<texto><![CDATA[Ahora da clic al botón <b>reproducir</b> para escuchar el guión de radio.]]></texto>
+		</pantallaAcabaGuion>
+		<pantallaFinal>
+			<texto personaje="1" pos="1" ><![CDATA[¿Sabían que los programas de radio tienen un guión?]]></texto>
+			<texto personaje="4" pos="1" ><![CDATA[¿Un guión? ¿Una línea para separar palabras? ]]></texto>
+			<texto personaje="2" pos="2" ><![CDATA[¡No! Un guión de radio es el documento donde se escribe la guía con la información que tendrá el programa.]]></texto>
+			<texto personaje="3" pos="2" ><![CDATA[Sí, donde se escribe lo que los conductores de radio dirán en un programa. ]]></texto>
+			<texto personaje="1" pos="1" ><![CDATA[Así es amigos, un guión es donde se escribe la información que tendrá un programa de radio.]]></texto>
+		</pantallaFinal>
+	</ajustes>
+
+</book>

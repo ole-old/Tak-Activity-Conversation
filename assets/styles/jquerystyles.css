@@ -1,0 +1,284 @@
+/* CSS Document */
+
+
+#slider-wrapper { /*contenedor*/
+    width:893px;
+    height:375px;
+	margin:0 auto;
+
+}
+
+#slider { /*contenedor*/
+    width:893px;
+    height:375px;
+	
+}
+#slider  img{ /*contenedor*/
+
+}
+/*#slider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}*/
+/*#slider a {
+	border:0;
+	display:block;
+}*/
+
+.nivoSlider a.nivo-imageLink { /*imagen que tiene el link*/
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:60;
+	display:none;
+}
+
+.nivo-caption {/* textos de la descripcion*/
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	background:#282d2d;
+	color:#fff;
+	opacity:0.8; 
+	width:100%;
+	z-index:89;
+}
+.nivo-caption p {/* textos de la descripcion*/
+	padding:5px 5px 5px 10px;
+	margin:0;
+}
+.nivo-caption {
+	font-family:Georgia, "Times New Roman", Times, serif; /* textos de la descripcion*/
+	font-style:italic;
+	font-size:15px;
+
+}
+.nivo-caption a { /* textos de la descripcion*/
+    color:#efe9d1;
+    text-decoration:underline;
+}
+/* sprites*/
+.nivo-directionNav a {
+	display:block;
+	width:20px;
+	height:20px;
+	background:url(../images/frontend/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+a.nivo-nextNav {/*sprites*/
+	background-position:-20px 0;
+	right:15px;
+}
+a.nivo-prevNav {
+	left:15px;/*sprites*/
+}
+.nivo-directionNav a { /*posicion en vertical sprites interiores*/
+	position:absolute;
+	top:45%;
+	z-index:99;
+	cursor:pointer;
+}
+/*bulltes*/
+.nivo-controlNav a {
+	position:relative;
+	z-index:99;
+	cursor:pointer;
+}
+
+.nivo-controlNav { /*bullets desactivarlos*/
+	position:absolute;
+	margin:320px 0 0 430px ;
+	
+	
+}
+.nivo-controlNav a {
+	display:block; /* bullets*/
+	width:25px;
+	height:20px;
+	background:url(../images/frontend/bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:0;
+	float:left;
+}
+.nivo-controlNav a.active {/* bullet activo*/
+	background-position:0 -20px;
+}
+.nivo-controlNav a:hover {/* bullet activo*/
+	background-position:0 -20px;
+}
+
+.nivo-slice {/* no borrar*/
+	display:block;
+	position:absolute;
+	z-index:50;
+	height:100%;
+}
+.nivo-html-caption { /*no borrar*/
+    display:none;
+}
+
+#intro #introimage {float:left; 
+					margin:20px 0px 0px 35px; 
+					border:0px;
+					width:300px;
+					height:225px;
+}
+
+
+/*apartir de aqui empieza el contenido central*/
+
+.ui-tabs { /*div que incluye todo el contenido del jquery incluyendo el menu*/
+	font-family:Georgia, "Times New Roman", Times, serif; /* textos de la descripcion*/
+	color:#999999;
+	padding:0; 
+	zoom: 1;
+} 
+/*modificar todo contenedor que incluye al menu */
+.ui-tabs-vertical .ui-tabs-nav {
+padding: 0 10px 0 0;
+	margin: 28px 5px 0 0;
+	float: left; 
+	width:135px; /*medida a lo ancho del menu*/
+}
+*html .ui-tabs-vertical .ui-tabs-nav {
+	margin: 15px 0 0 16px;
+	float: left; 
+	width:120px; /*medida a lo ancho del menu*/
+}
+/*caracteristiacs de cada opcion de menu*/
+.ui-tabs-vertical .ui-tabs-nav {
+}
+
+.ui-tabs-vertical .ui-tabs-nav li {/*le quite la altura*/
+	
+	float: left;
+	margin: 0;
+ /*se determina el espacio que hay entre cada opcion de menu*/
+	font-size:13px;
+	clear: left;/* este funciona para que las opcion ocupen un renglon, es decir que no se acomoden todas en un parrafo.*/
+	border-bottom-width: 1px !important; /*valores para el jquery no modificable*/
+	 border-right-width: 0 !important;/*valores para el jquery no modificable*/
+
+			padding:10px 0px 10px 0px;  
+}
+
+.ui-tabs .ui-tabs-nav li  {
+	 border-bottom:1px solid #404040;
+
+}
+.ui-tabs .ui-tabs-nav li a {
+	text-decoration:none;  /*color de las ligas del menu*/
+	  color:#7ba9b6;
+	  display:block;
+	  
+
+}
+/*color de las ligas del menu en estado over*/
+.ui-tabs .ui-tabs-nav li a:hover { 
+	color:#fff;
+
+}
+/*.ui-tabs .ui-tabs-nav li.ui-tabs-selected { color de las ligas del menu en estado seleccionado
+ 	color:#666666; 
+}*/
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a { /*color de las ligas del menu en estado seleccionado*/
+	color:#666666;
+	text-decoration:underline; 
+}
+.ui-tabs-vertical .ui-tabs-panel {
+     float:left; 
+	 margin:0;
+	 padding:0 0 0 0;
+}
+.ui-tabs-vertical .ui-tabs-panel p{ 
+	padding:0;
+}	
+.ui-helper-reset {  /*estilo para el jquery no modificable*/
+	margin: 0; 
+	padding: 0;
+    border: 0; 
+	outline: 0; 
+    text-decoration: none;
+	list-style: none; 
+}
+.ui-helper-clearfix:after { /*estilo para el jquery no modificable*/
+	 content: ".";
+	 display: block;
+	 height: 0;
+	 clear: both; 
+	 visibility: hidden;
+}
+.ui-tabs .ui-tabs-hide {  /*estilo para el jquery no modificable*/
+	display: none !important; 
+}
+
+#borde{
+	color:#fff; 
+	font-size:90%; 
+    font-weight:normal;
+    border-bottom:solid 3px #fff;
+    width:140px;
+	padding: 0 0 12px 0;
+		
+}
+#slider_dos { /*contenedor*/
+    width:1000px;
+    height:238px;
+}
+#banners_header  { width:1000px; height:238px; display:block; background-color:transparent !important;
+
+	margin:0 !important;
+	padding:0 !important;}
+
+#banners_header .nivo-controlNav {
+		display:none;
+}
+
+
+
+div.si label.cabinet {
+	width: 156px;
+	height: 34px;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	z-index: 3;
+	float: left;
+}
+div.si label.cabinet input {
+	position: relative;
+	left: -140px;
+	top: 0;
+	height: 100%;
+	width: auto !important;
+	z-index: 2;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+div.si div.uploadButton {
+	position: relative;
+	float: left;
+}
+div.si div.uploadButton div {
+	width: 156px;
+	height: 34px;
+	background: url(../images/examinar.png) 0 0 no-repeat;
+	left: -156px;
+	position: absolute;
+	z-index: 1;
+}
+div.si label.selectedFile {
+	margin-left: 5px;
+	line-height: 34px;
+}
